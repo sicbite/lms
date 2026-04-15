@@ -1,0 +1,2722 @@
+
+[35m========== Linux Mint 22.2 Cinnamon Setup ==========[0m
+
+[34m[INFO][0m Running install_packages.sh...
+
+[35m========== Installing Base Packages ==========[0m
+
+
+[35m========== Installing Base Packages ==========[0m
+
+Hit:1 http://archive.ubuntu.com/ubuntu noble InRelease
+Hit:1 http://archive.ubuntu.com/ubuntu noble InRelease
+Hit:2 https://brave-browser-apt-release.s3.brave.com stable InRelease
+Hit:2 https://brave-browser-apt-release.s3.brave.com stable InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:4 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:4 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+Ign:6 http://packages.linuxmint.com zara InRelease
+Ign:6 http://packages.linuxmint.com zara InRelease
+Hit:7 http://packages.linuxmint.com zara Release
+Hit:7 http://packages.linuxmint.com zara Release
+Reading package lists...Reading package lists...
+
+[33m[SKIP][0m neovim already installed.
+[33m[SKIP][0m neovim already installed.
+[33m[SKIP][0m ufw already installed.
+[33m[SKIP][0m ufw already installed.
+[32m[OK][0m install_packages.sh completed.
+[34m[INFO][0m Running brave.sh...
+
+[35m========== Installing Brave ==========[0m
+
+
+[35m========== Installing Brave ==========[0m
+
+[33m[SKIP][0m Brave already installed.
+[33m[SKIP][0m Brave already installed.
+[32m[OK][0m brave.sh completed.
+[34m[INFO][0m Running protonvpn.sh...
+
+[35m========== Installing ProtonVPN GUI ==========[0m
+
+
+[35m========== Installing ProtonVPN GUI ==========[0m
+
+--2026-02-11 04:58:24--  https://repo.protonvpn.com/debian/pool/main/p/protonvpn-stable-release/protonvpn-stable-release_1.0.0_all.deb
+--2026-02-11 04:58:24--  https://repo.protonvpn.com/debian/pool/main/p/protonvpn-stable-release/protonvpn-stable-release_1.0.0_all.deb
+Resolving repo.protonvpn.com (repo.protonvpn.com)... Resolving repo.protonvpn.com (repo.protonvpn.com)... 104.26.5.35, 172.67.70.114, 104.26.4.35, ...104.26.5.35, 172.67.70.114, 104.26.4.35, ...
+Connecting to repo.protonvpn.com (repo.protonvpn.com)|104.26.5.35|:443... 
+Connecting to repo.protonvpn.com (repo.protonvpn.com)|104.26.5.35|:443... connected.
+connected.
+HTTP request sent, awaiting response... HTTP request sent, awaiting response... 404 Not Found
+2026-02-11 04:58:26 ERROR 404: Not Found.
+
+404 Not Found
+2026-02-11 04:58:26 ERROR 404: Not Found.
+
+[31m[ERROR][0m Script failed at line 17. See mint-setup.log
+[31m[ERROR][0m Script failed at line 17. See mint-setup.log
+[31m[ERROR][0m Script failed at line 15. See mint-setup.log
+
+[35m========== Linux Mint 22.2 Cinnamon Setup ==========[0m
+
+[34m[INFO][0m Running install_packages.sh...
+
+[35m========== Installing Base Packages ==========[0m
+
+
+[35m========== Installing Base Packages ==========[0m
+
+Hit:1 https://brave-browser-apt-release.s3.brave.com stable InRelease
+Hit:1 https://brave-browser-apt-release.s3.brave.com stable InRelease
+Hit:2 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:2 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu noble InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu noble InRelease
+Ign:4 http://packages.linuxmint.com zara InRelease
+Ign:4 http://packages.linuxmint.com zara InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:6 http://packages.linuxmint.com zara Release
+Hit:6 http://packages.linuxmint.com zara Release
+Hit:8 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+Hit:8 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+Reading package lists...Reading package lists...
+
+[33m[SKIP][0m neovim already installed.
+[33m[SKIP][0m neovim already installed.
+[33m[SKIP][0m ufw already installed.
+[33m[SKIP][0m ufw already installed.
+[32m[OK][0m install_packages.sh completed.
+[34m[INFO][0m Running brave.sh...
+
+[35m========== Installing Brave ==========[0m
+
+
+[35m========== Installing Brave ==========[0m
+
+[33m[SKIP][0m Brave already installed.
+[33m[SKIP][0m Brave already installed.
+[32m[OK][0m brave.sh completed.
+[34m[INFO][0m Running protonvpn.sh...
+
+[35m========== Installing ProtonVPN GUI ==========[0m
+
+
+[35m========== Installing ProtonVPN GUI ==========[0m
+
+[34m[INFO][0m Adding ProtonVPN GPG key...
+[34m[INFO][0m Adding ProtonVPN GPG key...
+[32m[OK][0m GPG key added.
+[32m[OK][0m GPG key added.
+[34m[INFO][0m Adding ProtonVPN repository...
+[34m[INFO][0m Adding ProtonVPN repository...
+[32m[OK][0m Repository added.
+[32m[OK][0m Repository added.
+Ign:1 http://packages.linuxmint.com zara InRelease
+Ign:1 http://packages.linuxmint.com zara InRelease
+Hit:2 http://packages.linuxmint.com zara Release
+Hit:2 http://packages.linuxmint.com zara Release
+Hit:4 https://brave-browser-apt-release.s3.brave.com stable InRelease
+Hit:4 https://brave-browser-apt-release.s3.brave.com stable InRelease
+Hit:5 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:5 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:6 http://archive.ubuntu.com/ubuntu noble InRelease
+Hit:6 http://archive.ubuntu.com/ubuntu noble InRelease
+Get:7 https://repo.protonvpn.com/debian stable InRelease [2,967 B]
+Get:7 https://repo.protonvpn.com/debian stable InRelease [2,967 B]
+Hit:8 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:8 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:9 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+Hit:9 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+Get:10 https://repo.protonvpn.com/debian stable/main all Packages [210 kB]
+Get:10 https://repo.protonvpn.com/debian stable/main all Packages [210 kB]
+Get:11 https://repo.protonvpn.com/debian stable/main amd64 Packages [8,313 B]
+Get:11 https://repo.protonvpn.com/debian stable/main amd64 Packages [8,313 B]
+Fetched 222 kB in 7s (30.9 kB/s)
+Reading package lists...Fetched 222 kB in 7s (30.9 kB/s)
+Reading package lists...
+
+[34m[INFO][0m Installing ProtonVPN GUI...
+[34m[INFO][0m Installing ProtonVPN GUI...
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+
+Reading state information...
+The following additional packages will be installed:
+The following additional packages will be installed:
+  gir1.2-gtk-4.0 javascript-common libbpfcc libcares2 libclang-cpp18
+  gir1.2-gtk-4.0 javascript-common libbpfcc libcares2 libclang-cpp18
+  libgtk-4-1 libgtk-4-common libjs-jquery libllvm18 linux-headers-6.8.0-100
+  libgtk-4-1 libgtk-4-common libjs-jquery libllvm18 linux-headers-6.8.0-100
+  linux-headers-6.8.0-100-generic linux-headers-generic linux-libc-dev
+  linux-headers-6.8.0-100-generic linux-headers-generic linux-libc-dev
+  proton-vpn-daemon proton-vpn-gtk-app python-babel-localedata python3-aiodns
+  proton-vpn-daemon proton-vpn-gtk-app python-babel-localedata python3-aiodns
+  python3-aiohttp python3-aiosignal python3-async-timeout python3-attr
+  python3-babel python3-bcrypt python3-bpfcc python3-dbus-fast python3-fido2
+  python3-frozenlist python3-importlib-metadata python3-jaraco.classes
+  python3-jeepney python3-jinja2 python3-keyring python3-more-itertools
+  python3-multidict python3-openssl python3-proton-core
+  python3-proton-keyring-linux python3-proton-vpn-api-core
+  python3-proton-vpn-local-agent python3-pycares python3-secretstorage
+  python3-aiohttp python3-aiosignal python3-async-timeout python3-attr
+  python3-babel python3-bcrypt python3-bpfcc python3-dbus-fast python3-fido2
+  python3-frozenlist python3-importlib-metadata python3-jaraco.classes
+  python3-jeepney python3-jinja2 python3-keyring python3-more-itertools
+  python3-multidict python3-openssl python3-proton-core
+  python3-proton-keyring-linux python3-proton-vpn-api-core
+  python3-proton-vpn-local-agent python3-pycares python3-secretstorage
+  python3-sentry-sdk python3-yarl python3-zipp wireguard-tools
+  python3-sentry-sdk python3-yarl python3-zipp wireguard-tools
+Suggested packages:
+  apache2 | lighttpd | httpd python-attr-doc python-jinja2-doc
+  libkf5wallet-bin python3-keyrings.alt python3-shtab python-openssl-doc
+  python3-openssl-dbg python-pycares-doc python-secretstorage-doc
+Recommended packages:
+  libgtk-4-bin libgtk-4-media-gstreamer
+Suggested packages:
+  apache2 | lighttpd | httpd python-attr-doc python-jinja2-doc
+  libkf5wallet-bin python3-keyrings.alt python3-shtab python-openssl-doc
+  python3-openssl-dbg python-pycares-doc python-secretstorage-doc
+Recommended packages:
+  libgtk-4-bin libgtk-4-media-gstreamer
+The following NEW packages will be installed:
+The following NEW packages will be installed:
+  gir1.2-gtk-4.0 javascript-common libbpfcc libcares2 libclang-cpp18
+  gir1.2-gtk-4.0 javascript-common libbpfcc libcares2 libclang-cpp18
+  libjs-jquery libllvm18 linux-headers-6.8.0-100
+  libjs-jquery libllvm18 linux-headers-6.8.0-100
+  linux-headers-6.8.0-100-generic linux-headers-generic proton-vpn-daemon
+  proton-vpn-gnome-desktop proton-vpn-gtk-app python-babel-localedata
+  python3-aiodns python3-aiohttp python3-aiosignal python3-async-timeout
+  linux-headers-6.8.0-100-generic linux-headers-generic proton-vpn-daemon
+  proton-vpn-gnome-desktop proton-vpn-gtk-app python-babel-localedata
+  python3-aiodns python3-aiohttp python3-aiosignal python3-async-timeout
+  python3-attr python3-babel python3-bcrypt python3-bpfcc python3-dbus-fast
+  python3-fido2 python3-frozenlist python3-importlib-metadata
+  python3-jaraco.classes python3-jeepney python3-jinja2 python3-keyring
+  python3-more-itertools python3-multidict python3-openssl python3-proton-core
+  python3-proton-keyring-linux python3-proton-vpn-api-core
+  python3-proton-vpn-local-agent python3-pycares python3-secretstorage
+  python3-attr python3-babel python3-bcrypt python3-bpfcc python3-dbus-fast
+  python3-fido2 python3-frozenlist python3-importlib-metadata
+  python3-jaraco.classes python3-jeepney python3-jinja2 python3-keyring
+  python3-more-itertools python3-multidict python3-openssl python3-proton-core
+  python3-proton-keyring-linux python3-proton-vpn-api-core
+  python3-proton-vpn-local-agent python3-pycares python3-secretstorage
+  python3-sentry-sdk python3-yarl python3-zipp wireguard-tools
+  python3-sentry-sdk python3-yarl python3-zipp wireguard-tools
+The following packages will be upgraded:
+The following packages will be upgraded:
+  libgtk-4-1 libgtk-4-common linux-libc-dev
+  libgtk-4-1 libgtk-4-common linux-libc-dev
+3 upgraded, 43 newly installed, 0 to remove and 274 not upgraded.
+Need to get 77.0 MB of archives.
+After this operation, 352 MB of additional disk space will be used.
+Get:1 https://repo.protonvpn.com/debian stable/main all python3-dbus-fast all 2.44.1 [49.7 kB]
+3 upgraded, 43 newly installed, 0 to remove and 274 not upgraded.
+Need to get 77.0 MB of archives.
+After this operation, 352 MB of additional disk space will be used.
+Get:1 https://repo.protonvpn.com/debian stable/main all python3-dbus-fast all 2.44.1 [49.7 kB]
+Get:2 https://repo.protonvpn.com/debian stable/main all python3-proton-core all 0.7.3 [39.3 kB]
+Get:2 https://repo.protonvpn.com/debian stable/main all python3-proton-core all 0.7.3 [39.3 kB]
+Get:3 https://repo.protonvpn.com/debian stable/main amd64 python3-proton-vpn-local-agent amd64 1.6.0 [1,396 kB]
+Get:3 https://repo.protonvpn.com/debian stable/main amd64 python3-proton-vpn-local-agent amd64 1.6.0 [1,396 kB]
+Get:4 https://repo.protonvpn.com/debian stable/main all python3-proton-vpn-api-core all 4.14.3 [91.9 kB]
+Get:4 https://repo.protonvpn.com/debian stable/main all python3-proton-vpn-api-core all 4.14.3 [91.9 kB]
+Get:5 https://repo.protonvpn.com/debian stable/main all proton-vpn-daemon all 0.13.4 [18.2 kB]
+Get:5 https://repo.protonvpn.com/debian stable/main all proton-vpn-daemon all 0.13.4 [18.2 kB]
+Get:6 https://repo.protonvpn.com/debian stable/main all proton-vpn-gtk-app all 4.14.1 [101 kB]
+Get:6 https://repo.protonvpn.com/debian stable/main all proton-vpn-gtk-app all 4.14.1 [101 kB]
+Get:7 https://repo.protonvpn.com/debian stable/main all python3-proton-keyring-linux all 0.2.1 [6,418 B]
+Get:7 https://repo.protonvpn.com/debian stable/main all python3-proton-keyring-linux all 0.2.1 [6,418 B]
+Get:8 https://repo.protonvpn.com/debian stable/main all proton-vpn-gnome-desktop all 0.10.1 [2,724 B]
+Get:8 https://repo.protonvpn.com/debian stable/main all proton-vpn-gnome-desktop all 0.10.1 [2,724 B]
+Get:9 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libgtk-4-common all 4.14.5+ds-0ubuntu0.7 [1,496 kB]
+Get:9 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libgtk-4-common all 4.14.5+ds-0ubuntu0.7 [1,496 kB]
+Get:10 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libgtk-4-1 amd64 4.14.5+ds-0ubuntu0.7 [3,294 kB]
+Get:10 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libgtk-4-1 amd64 4.14.5+ds-0ubuntu0.7 [3,294 kB]
+Get:11 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 gir1.2-gtk-4.0 amd64 4.14.5+ds-0ubuntu0.7 [223 kB]
+Get:11 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 gir1.2-gtk-4.0 amd64 4.14.5+ds-0ubuntu0.7 [223 kB]
+Get:12 http://archive.ubuntu.com/ubuntu noble/main amd64 javascript-common all 11+nmu1 [5,936 B]
+Get:12 http://archive.ubuntu.com/ubuntu noble/main amd64 javascript-common all 11+nmu1 [5,936 B]
+Get:13 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libllvm18 amd64 1:18.1.3-1ubuntu1 [27.5 MB]
+Get:13 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libllvm18 amd64 1:18.1.3-1ubuntu1 [27.5 MB]
+Get:14 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libclang-cpp18 amd64 1:18.1.3-1ubuntu1 [13.5 MB]
+Get:14 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libclang-cpp18 amd64 1:18.1.3-1ubuntu1 [13.5 MB]
+Get:15 http://archive.ubuntu.com/ubuntu noble/main amd64 libbpfcc amd64 0.29.1+ds-1ubuntu7 [663 kB]
+Get:15 http://archive.ubuntu.com/ubuntu noble/main amd64 libbpfcc amd64 0.29.1+ds-1ubuntu7 [663 kB]
+Get:16 http://archive.ubuntu.com/ubuntu noble/main amd64 libcares2 amd64 1.27.0-1.0ubuntu1 [73.7 kB]
+Get:16 http://archive.ubuntu.com/ubuntu noble/main amd64 libcares2 amd64 1.27.0-1.0ubuntu1 [73.7 kB]
+Get:17 http://archive.ubuntu.com/ubuntu noble/main amd64 libjs-jquery all 3.6.1+dfsg+~3.5.14-1 [328 kB]
+Get:17 http://archive.ubuntu.com/ubuntu noble/main amd64 libjs-jquery all 3.6.1+dfsg+~3.5.14-1 [328 kB]
+Get:18 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-headers-6.8.0-100 all 6.8.0-100.100 [14.1 MB]
+Get:18 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-headers-6.8.0-100 all 6.8.0-100.100 [14.1 MB]
+Get:19 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-headers-6.8.0-100-generic amd64 6.8.0-100.100 [4,287 kB]
+Get:19 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-headers-6.8.0-100-generic amd64 6.8.0-100.100 [4,287 kB]
+Get:20 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-headers-generic amd64 6.8.0-100.100 [10.9 kB]
+Get:20 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-headers-generic amd64 6.8.0-100.100 [10.9 kB]
+Get:21 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-libc-dev amd64 6.8.0-100.100 [2,042 kB]
+Get:21 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-libc-dev amd64 6.8.0-100.100 [2,042 kB]
+Get:22 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-fido2 all 1.1.2-2 [138 kB]
+Get:22 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-fido2 all 1.1.2-2 [138 kB]
+Get:23 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-jinja2 all 3.1.2-1ubuntu1.3 [108 kB]
+Get:23 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-jinja2 all 3.1.2-1ubuntu1.3 [108 kB]
+Get:24 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-multidict amd64 6.0.4-1.1build1 [33.5 kB]
+Get:24 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-multidict amd64 6.0.4-1.1build1 [33.5 kB]
+Get:25 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-yarl amd64 1.8.2-3build2 [58.3 kB]
+Get:25 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-yarl amd64 1.8.2-3build2 [58.3 kB]
+Get:26 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-async-timeout all 4.0.3-1 [6,412 B]
+Get:26 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-async-timeout all 4.0.3-1 [6,412 B]
+Get:27 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-frozenlist amd64 1.4.0-1build2 [42.0 kB]
+Get:27 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-frozenlist amd64 1.4.0-1build2 [42.0 kB]
+Get:28 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-aiosignal all 1.3.1-1 [5,172 B]
+Get:28 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-aiosignal all 1.3.1-1 [5,172 B]
+Get:29 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-more-itertools all 10.2.0-1 [52.9 kB]
+Get:29 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-more-itertools all 10.2.0-1 [52.9 kB]
+Get:30 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-zipp all 1.0.0-6ubuntu0.1 [6,774 B]
+Get:30 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-zipp all 1.0.0-6ubuntu0.1 [6,774 B]
+Get:31 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-importlib-metadata all 4.12.0-1 [17.8 kB]
+Get:31 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-importlib-metadata all 4.12.0-1 [17.8 kB]
+Get:32 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-attr all 23.2.0-2 [48.6 kB]
+Get:32 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-attr all 23.2.0-2 [48.6 kB]
+Get:33 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-aiohttp amd64 3.9.1-1build1 [283 kB]
+Get:33 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-aiohttp amd64 3.9.1-1build1 [283 kB]
+Get:34 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-bcrypt amd64 3.2.2-1build1 [33.0 kB]
+Get:34 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-bcrypt amd64 3.2.2-1build1 [33.0 kB]
+Get:35 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-openssl all 23.2.0-1 [47.8 kB]
+Get:35 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-openssl all 23.2.0-1 [47.8 kB]
+Get:36 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-sentry-sdk all 1.39.2-0.1 [158 kB]
+Get:36 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-sentry-sdk all 1.39.2-0.1 [158 kB]
+Get:37 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-bpfcc all 0.29.1+ds-1ubuntu7 [40.2 kB]
+Get:37 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-bpfcc all 0.29.1+ds-1ubuntu7 [40.2 kB]
+Get:38 http://archive.ubuntu.com/ubuntu noble/main amd64 wireguard-tools amd64 1.0.20210914-1ubuntu4 [89.1 kB]
+Get:38 http://archive.ubuntu.com/ubuntu noble/main amd64 wireguard-tools amd64 1.0.20210914-1ubuntu4 [89.1 kB]
+Get:39 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-jaraco.classes all 3.2.1-4 [6,528 B]
+Get:39 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-jaraco.classes all 3.2.1-4 [6,528 B]
+Get:40 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-jeepney all 0.8.0-3 [34.7 kB]
+Get:40 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-jeepney all 0.8.0-3 [34.7 kB]
+Get:41 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-secretstorage all 3.3.3-3 [13.7 kB]
+Get:41 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-secretstorage all 3.3.3-3 [13.7 kB]
+Get:42 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-keyring all 24.3.1-1 [40.3 kB]
+Get:42 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-keyring all 24.3.1-1 [40.3 kB]
+Get:43 http://archive.ubuntu.com/ubuntu noble/main amd64 python-babel-localedata all 2.10.3-3build1 [6,357 kB]
+Get:43 http://archive.ubuntu.com/ubuntu noble/main amd64 python-babel-localedata all 2.10.3-3build1 [6,357 kB]
+Get:44 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-pycares amd64 4.4.0-1build2 [29.8 kB]
+Get:44 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-pycares amd64 4.4.0-1build2 [29.8 kB]
+Get:45 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-aiodns all 3.1.1-1 [7,556 B]
+Get:45 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-aiodns all 3.1.1-1 [7,556 B]
+Get:46 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-babel all 2.10.3-3build1 [87.5 kB]
+Get:46 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-babel all 2.10.3-3build1 [87.5 kB]
+Fetched 77.0 MB in 45s (1,720 kB/s)
+Fetched 77.0 MB in 45s (1,720 kB/s)
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 458276 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 458276 files and directories currently installed.)
+Preparing to unpack .../00-libgtk-4-common_4.14.5+ds-0ubuntu0.7_all.deb ...
+Preparing to unpack .../00-libgtk-4-common_4.14.5+ds-0ubuntu0.7_all.deb ...
+Unpacking libgtk-4-common (4.14.5+ds-0ubuntu0.7) over (4.14.5+ds-0ubuntu0.5) ...
+Unpacking libgtk-4-common (4.14.5+ds-0ubuntu0.7) over (4.14.5+ds-0ubuntu0.5) ...
+Preparing to unpack .../01-libgtk-4-1_4.14.5+ds-0ubuntu0.7_amd64.deb ...
+Preparing to unpack .../01-libgtk-4-1_4.14.5+ds-0ubuntu0.7_amd64.deb ...
+Unpacking libgtk-4-1:amd64 (4.14.5+ds-0ubuntu0.7) over (4.14.5+ds-0ubuntu0.5) ...
+Unpacking libgtk-4-1:amd64 (4.14.5+ds-0ubuntu0.7) over (4.14.5+ds-0ubuntu0.5) ...
+Selecting previously unselected package gir1.2-gtk-4.0:amd64.
+Selecting previously unselected package gir1.2-gtk-4.0:amd64.
+Preparing to unpack .../02-gir1.2-gtk-4.0_4.14.5+ds-0ubuntu0.7_amd64.deb ...
+Preparing to unpack .../02-gir1.2-gtk-4.0_4.14.5+ds-0ubuntu0.7_amd64.deb ...
+Unpacking gir1.2-gtk-4.0:amd64 (4.14.5+ds-0ubuntu0.7) ...
+Unpacking gir1.2-gtk-4.0:amd64 (4.14.5+ds-0ubuntu0.7) ...
+Selecting previously unselected package javascript-common.
+Selecting previously unselected package javascript-common.
+Preparing to unpack .../03-javascript-common_11+nmu1_all.deb ...
+Preparing to unpack .../03-javascript-common_11+nmu1_all.deb ...
+Unpacking javascript-common (11+nmu1) ...
+Unpacking javascript-common (11+nmu1) ...
+Selecting previously unselected package libllvm18:amd64.
+Selecting previously unselected package libllvm18:amd64.
+Preparing to unpack .../04-libllvm18_1%3a18.1.3-1ubuntu1_amd64.deb ...
+Preparing to unpack .../04-libllvm18_1%3a18.1.3-1ubuntu1_amd64.deb ...
+Unpacking libllvm18:amd64 (1:18.1.3-1ubuntu1) ...
+Unpacking libllvm18:amd64 (1:18.1.3-1ubuntu1) ...
+Selecting previously unselected package libclang-cpp18.
+Selecting previously unselected package libclang-cpp18.
+Preparing to unpack .../05-libclang-cpp18_1%3a18.1.3-1ubuntu1_amd64.deb ...
+Preparing to unpack .../05-libclang-cpp18_1%3a18.1.3-1ubuntu1_amd64.deb ...
+Unpacking libclang-cpp18 (1:18.1.3-1ubuntu1) ...
+Unpacking libclang-cpp18 (1:18.1.3-1ubuntu1) ...
+Selecting previously unselected package libbpfcc:amd64.
+Selecting previously unselected package libbpfcc:amd64.
+Preparing to unpack .../06-libbpfcc_0.29.1+ds-1ubuntu7_amd64.deb ...
+Preparing to unpack .../06-libbpfcc_0.29.1+ds-1ubuntu7_amd64.deb ...
+Unpacking libbpfcc:amd64 (0.29.1+ds-1ubuntu7) ...
+Unpacking libbpfcc:amd64 (0.29.1+ds-1ubuntu7) ...
+Selecting previously unselected package libcares2:amd64.
+Selecting previously unselected package libcares2:amd64.
+Preparing to unpack .../07-libcares2_1.27.0-1.0ubuntu1_amd64.deb ...
+Preparing to unpack .../07-libcares2_1.27.0-1.0ubuntu1_amd64.deb ...
+Unpacking libcares2:amd64 (1.27.0-1.0ubuntu1) ...
+Unpacking libcares2:amd64 (1.27.0-1.0ubuntu1) ...
+Selecting previously unselected package libjs-jquery.
+Selecting previously unselected package libjs-jquery.
+Preparing to unpack .../08-libjs-jquery_3.6.1+dfsg+~3.5.14-1_all.deb ...
+Preparing to unpack .../08-libjs-jquery_3.6.1+dfsg+~3.5.14-1_all.deb ...
+Unpacking libjs-jquery (3.6.1+dfsg+~3.5.14-1) ...
+Unpacking libjs-jquery (3.6.1+dfsg+~3.5.14-1) ...
+Selecting previously unselected package linux-headers-6.8.0-100.
+Selecting previously unselected package linux-headers-6.8.0-100.
+Preparing to unpack .../09-linux-headers-6.8.0-100_6.8.0-100.100_all.deb ...
+Preparing to unpack .../09-linux-headers-6.8.0-100_6.8.0-100.100_all.deb ...
+Unpacking linux-headers-6.8.0-100 (6.8.0-100.100) ...
+Unpacking linux-headers-6.8.0-100 (6.8.0-100.100) ...
+Selecting previously unselected package linux-headers-6.8.0-100-generic.
+Selecting previously unselected package linux-headers-6.8.0-100-generic.
+Preparing to unpack .../10-linux-headers-6.8.0-100-generic_6.8.0-100.100_amd64.deb ...
+Preparing to unpack .../10-linux-headers-6.8.0-100-generic_6.8.0-100.100_amd64.deb ...
+Unpacking linux-headers-6.8.0-100-generic (6.8.0-100.100) ...
+Unpacking linux-headers-6.8.0-100-generic (6.8.0-100.100) ...
+Selecting previously unselected package linux-headers-generic.
+Selecting previously unselected package linux-headers-generic.
+Preparing to unpack .../11-linux-headers-generic_6.8.0-100.100_amd64.deb ...
+Preparing to unpack .../11-linux-headers-generic_6.8.0-100.100_amd64.deb ...
+Unpacking linux-headers-generic (6.8.0-100.100) ...
+Unpacking linux-headers-generic (6.8.0-100.100) ...
+Preparing to unpack .../12-linux-libc-dev_6.8.0-100.100_amd64.deb ...
+Preparing to unpack .../12-linux-libc-dev_6.8.0-100.100_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (6.8.0-100.100) over (6.8.0-79.79) ...
+Unpacking linux-libc-dev:amd64 (6.8.0-100.100) over (6.8.0-79.79) ...
+Selecting previously unselected package python3-dbus-fast.
+Selecting previously unselected package python3-dbus-fast.
+Preparing to unpack .../13-python3-dbus-fast_2.44.1_all.deb ...
+Preparing to unpack .../13-python3-dbus-fast_2.44.1_all.deb ...
+Unpacking python3-dbus-fast (2.44.1) ...
+Unpacking python3-dbus-fast (2.44.1) ...
+Selecting previously unselected package python3-fido2.
+Selecting previously unselected package python3-fido2.
+Preparing to unpack .../14-python3-fido2_1.1.2-2_all.deb ...
+Preparing to unpack .../14-python3-fido2_1.1.2-2_all.deb ...
+Unpacking python3-fido2 (1.1.2-2) ...
+Unpacking python3-fido2 (1.1.2-2) ...
+Selecting previously unselected package python3-jinja2.
+Selecting previously unselected package python3-jinja2.
+Preparing to unpack .../15-python3-jinja2_3.1.2-1ubuntu1.3_all.deb ...
+Preparing to unpack .../15-python3-jinja2_3.1.2-1ubuntu1.3_all.deb ...
+Unpacking python3-jinja2 (3.1.2-1ubuntu1.3) ...
+Unpacking python3-jinja2 (3.1.2-1ubuntu1.3) ...
+Selecting previously unselected package python3-multidict.
+Selecting previously unselected package python3-multidict.
+Preparing to unpack .../16-python3-multidict_6.0.4-1.1build1_amd64.deb ...
+Preparing to unpack .../16-python3-multidict_6.0.4-1.1build1_amd64.deb ...
+Unpacking python3-multidict (6.0.4-1.1build1) ...
+Unpacking python3-multidict (6.0.4-1.1build1) ...
+Selecting previously unselected package python3-yarl.
+Selecting previously unselected package python3-yarl.
+Preparing to unpack .../17-python3-yarl_1.8.2-3build2_amd64.deb ...
+Preparing to unpack .../17-python3-yarl_1.8.2-3build2_amd64.deb ...
+Unpacking python3-yarl (1.8.2-3build2) ...
+Unpacking python3-yarl (1.8.2-3build2) ...
+Selecting previously unselected package python3-async-timeout.
+Selecting previously unselected package python3-async-timeout.
+Preparing to unpack .../18-python3-async-timeout_4.0.3-1_all.deb ...
+Preparing to unpack .../18-python3-async-timeout_4.0.3-1_all.deb ...
+Unpacking python3-async-timeout (4.0.3-1) ...
+Unpacking python3-async-timeout (4.0.3-1) ...
+Selecting previously unselected package python3-frozenlist.
+Selecting previously unselected package python3-frozenlist.
+Preparing to unpack .../19-python3-frozenlist_1.4.0-1build2_amd64.deb ...
+Preparing to unpack .../19-python3-frozenlist_1.4.0-1build2_amd64.deb ...
+Unpacking python3-frozenlist (1.4.0-1build2) ...
+Unpacking python3-frozenlist (1.4.0-1build2) ...
+Selecting previously unselected package python3-aiosignal.
+Selecting previously unselected package python3-aiosignal.
+Preparing to unpack .../20-python3-aiosignal_1.3.1-1_all.deb ...
+Preparing to unpack .../20-python3-aiosignal_1.3.1-1_all.deb ...
+Unpacking python3-aiosignal (1.3.1-1) ...
+Unpacking python3-aiosignal (1.3.1-1) ...
+Selecting previously unselected package python3-more-itertools.
+Selecting previously unselected package python3-more-itertools.
+Preparing to unpack .../21-python3-more-itertools_10.2.0-1_all.deb ...
+Preparing to unpack .../21-python3-more-itertools_10.2.0-1_all.deb ...
+Unpacking python3-more-itertools (10.2.0-1) ...
+Unpacking python3-more-itertools (10.2.0-1) ...
+Selecting previously unselected package python3-zipp.
+Selecting previously unselected package python3-zipp.
+Preparing to unpack .../22-python3-zipp_1.0.0-6ubuntu0.1_all.deb ...
+Preparing to unpack .../22-python3-zipp_1.0.0-6ubuntu0.1_all.deb ...
+Unpacking python3-zipp (1.0.0-6ubuntu0.1) ...
+Unpacking python3-zipp (1.0.0-6ubuntu0.1) ...
+Selecting previously unselected package python3-importlib-metadata.
+Selecting previously unselected package python3-importlib-metadata.
+Preparing to unpack .../23-python3-importlib-metadata_4.12.0-1_all.deb ...
+Preparing to unpack .../23-python3-importlib-metadata_4.12.0-1_all.deb ...
+Unpacking python3-importlib-metadata (4.12.0-1) ...
+Unpacking python3-importlib-metadata (4.12.0-1) ...
+Selecting previously unselected package python3-attr.
+Selecting previously unselected package python3-attr.
+Preparing to unpack .../24-python3-attr_23.2.0-2_all.deb ...
+Preparing to unpack .../24-python3-attr_23.2.0-2_all.deb ...
+Unpacking python3-attr (23.2.0-2) ...
+Unpacking python3-attr (23.2.0-2) ...
+Selecting previously unselected package python3-aiohttp.
+Selecting previously unselected package python3-aiohttp.
+Preparing to unpack .../25-python3-aiohttp_3.9.1-1build1_amd64.deb ...
+Preparing to unpack .../25-python3-aiohttp_3.9.1-1build1_amd64.deb ...
+Unpacking python3-aiohttp (3.9.1-1build1) ...
+Unpacking python3-aiohttp (3.9.1-1build1) ...
+Selecting previously unselected package python3-bcrypt.
+Selecting previously unselected package python3-bcrypt.
+Preparing to unpack .../26-python3-bcrypt_3.2.2-1build1_amd64.deb ...
+Preparing to unpack .../26-python3-bcrypt_3.2.2-1build1_amd64.deb ...
+Unpacking python3-bcrypt (3.2.2-1build1) ...
+Unpacking python3-bcrypt (3.2.2-1build1) ...
+Selecting previously unselected package python3-openssl.
+Selecting previously unselected package python3-openssl.
+Preparing to unpack .../27-python3-openssl_23.2.0-1_all.deb ...
+Preparing to unpack .../27-python3-openssl_23.2.0-1_all.deb ...
+Unpacking python3-openssl (23.2.0-1) ...
+Unpacking python3-openssl (23.2.0-1) ...
+Selecting previously unselected package python3-proton-core.
+Selecting previously unselected package python3-proton-core.
+Preparing to unpack .../28-python3-proton-core_0.7.3_all.deb ...
+Preparing to unpack .../28-python3-proton-core_0.7.3_all.deb ...
+Unpacking python3-proton-core (0.7.3) ...
+Unpacking python3-proton-core (0.7.3) ...
+Selecting previously unselected package python3-sentry-sdk.
+Selecting previously unselected package python3-sentry-sdk.
+Preparing to unpack .../29-python3-sentry-sdk_1.39.2-0.1_all.deb ...
+Preparing to unpack .../29-python3-sentry-sdk_1.39.2-0.1_all.deb ...
+Unpacking python3-sentry-sdk (1.39.2-0.1) ...
+Unpacking python3-sentry-sdk (1.39.2-0.1) ...
+Selecting previously unselected package python3-proton-vpn-local-agent.
+Selecting previously unselected package python3-proton-vpn-local-agent.
+Preparing to unpack .../30-python3-proton-vpn-local-agent_1.6.0_amd64.deb ...
+Preparing to unpack .../30-python3-proton-vpn-local-agent_1.6.0_amd64.deb ...
+Unpacking python3-proton-vpn-local-agent (1.6.0) ...
+Unpacking python3-proton-vpn-local-agent (1.6.0) ...
+Selecting previously unselected package python3-proton-vpn-api-core.
+Selecting previously unselected package python3-proton-vpn-api-core.
+Preparing to unpack .../31-python3-proton-vpn-api-core_4.14.3_all.deb ...
+Preparing to unpack .../31-python3-proton-vpn-api-core_4.14.3_all.deb ...
+Unpacking python3-proton-vpn-api-core (4.14.3) ...
+Unpacking python3-proton-vpn-api-core (4.14.3) ...
+Selecting previously unselected package python3-bpfcc.
+Selecting previously unselected package python3-bpfcc.
+Preparing to unpack .../32-python3-bpfcc_0.29.1+ds-1ubuntu7_all.deb ...
+Preparing to unpack .../32-python3-bpfcc_0.29.1+ds-1ubuntu7_all.deb ...
+Unpacking python3-bpfcc (0.29.1+ds-1ubuntu7) ...
+Unpacking python3-bpfcc (0.29.1+ds-1ubuntu7) ...
+Selecting previously unselected package wireguard-tools.
+Selecting previously unselected package wireguard-tools.
+Preparing to unpack .../33-wireguard-tools_1.0.20210914-1ubuntu4_amd64.deb ...
+Preparing to unpack .../33-wireguard-tools_1.0.20210914-1ubuntu4_amd64.deb ...
+Unpacking wireguard-tools (1.0.20210914-1ubuntu4) ...
+Unpacking wireguard-tools (1.0.20210914-1ubuntu4) ...
+Selecting previously unselected package proton-vpn-daemon.
+Selecting previously unselected package proton-vpn-daemon.
+Preparing to unpack .../34-proton-vpn-daemon_0.13.4_all.deb ...
+Preparing to unpack .../34-proton-vpn-daemon_0.13.4_all.deb ...
+Unpacking proton-vpn-daemon (0.13.4) ...
+Unpacking proton-vpn-daemon (0.13.4) ...
+Selecting previously unselected package proton-vpn-gtk-app.
+Selecting previously unselected package proton-vpn-gtk-app.
+Preparing to unpack .../35-proton-vpn-gtk-app_4.14.1_all.deb ...
+Preparing to unpack .../35-proton-vpn-gtk-app_4.14.1_all.deb ...
+Unpacking proton-vpn-gtk-app (4.14.1) ...
+Unpacking proton-vpn-gtk-app (4.14.1) ...
+Selecting previously unselected package python3-jaraco.classes.
+Selecting previously unselected package python3-jaraco.classes.
+Preparing to unpack .../36-python3-jaraco.classes_3.2.1-4_all.deb ...
+Preparing to unpack .../36-python3-jaraco.classes_3.2.1-4_all.deb ...
+Unpacking python3-jaraco.classes (3.2.1-4) ...
+Unpacking python3-jaraco.classes (3.2.1-4) ...
+Selecting previously unselected package python3-jeepney.
+Selecting previously unselected package python3-jeepney.
+Preparing to unpack .../37-python3-jeepney_0.8.0-3_all.deb ...
+Preparing to unpack .../37-python3-jeepney_0.8.0-3_all.deb ...
+Unpacking python3-jeepney (0.8.0-3) ...
+Unpacking python3-jeepney (0.8.0-3) ...
+Selecting previously unselected package python3-secretstorage.
+Selecting previously unselected package python3-secretstorage.
+Preparing to unpack .../38-python3-secretstorage_3.3.3-3_all.deb ...
+Preparing to unpack .../38-python3-secretstorage_3.3.3-3_all.deb ...
+Unpacking python3-secretstorage (3.3.3-3) ...
+Unpacking python3-secretstorage (3.3.3-3) ...
+Selecting previously unselected package python3-keyring.
+Selecting previously unselected package python3-keyring.
+Preparing to unpack .../39-python3-keyring_24.3.1-1_all.deb ...
+Preparing to unpack .../39-python3-keyring_24.3.1-1_all.deb ...
+Unpacking python3-keyring (24.3.1-1) ...
+Unpacking python3-keyring (24.3.1-1) ...
+Selecting previously unselected package python3-proton-keyring-linux.
+Selecting previously unselected package python3-proton-keyring-linux.
+Preparing to unpack .../40-python3-proton-keyring-linux_0.2.1_all.deb ...
+Preparing to unpack .../40-python3-proton-keyring-linux_0.2.1_all.deb ...
+Unpacking python3-proton-keyring-linux (0.2.1) ...
+Unpacking python3-proton-keyring-linux (0.2.1) ...
+Selecting previously unselected package proton-vpn-gnome-desktop.
+Selecting previously unselected package proton-vpn-gnome-desktop.
+Preparing to unpack .../41-proton-vpn-gnome-desktop_0.10.1_all.deb ...
+Preparing to unpack .../41-proton-vpn-gnome-desktop_0.10.1_all.deb ...
+Unpacking proton-vpn-gnome-desktop (0.10.1) ...
+Unpacking proton-vpn-gnome-desktop (0.10.1) ...
+Selecting previously unselected package python-babel-localedata.
+Selecting previously unselected package python-babel-localedata.
+Preparing to unpack .../42-python-babel-localedata_2.10.3-3build1_all.deb ...
+Preparing to unpack .../42-python-babel-localedata_2.10.3-3build1_all.deb ...
+Unpacking python-babel-localedata (2.10.3-3build1) ...
+Unpacking python-babel-localedata (2.10.3-3build1) ...
+Selecting previously unselected package python3-pycares.
+Selecting previously unselected package python3-pycares.
+Preparing to unpack .../43-python3-pycares_4.4.0-1build2_amd64.deb ...
+Preparing to unpack .../43-python3-pycares_4.4.0-1build2_amd64.deb ...
+Unpacking python3-pycares (4.4.0-1build2) ...
+Unpacking python3-pycares (4.4.0-1build2) ...
+Selecting previously unselected package python3-aiodns.
+Selecting previously unselected package python3-aiodns.
+Preparing to unpack .../44-python3-aiodns_3.1.1-1_all.deb ...
+Preparing to unpack .../44-python3-aiodns_3.1.1-1_all.deb ...
+Unpacking python3-aiodns (3.1.1-1) ...
+Unpacking python3-aiodns (3.1.1-1) ...
+Selecting previously unselected package python3-babel.
+Selecting previously unselected package python3-babel.
+Preparing to unpack .../45-python3-babel_2.10.3-3build1_all.deb ...
+Preparing to unpack .../45-python3-babel_2.10.3-3build1_all.deb ...
+Unpacking python3-babel (2.10.3-3build1) ...
+Unpacking python3-babel (2.10.3-3build1) ...
+Setting up python3-fido2 (1.1.2-2) ...
+Setting up python3-fido2 (1.1.2-2) ...
+Setting up python3-more-itertools (10.2.0-1) ...
+Setting up python3-more-itertools (10.2.0-1) ...
+Setting up javascript-common (11+nmu1) ...
+Setting up javascript-common (11+nmu1) ...
+Setting up python3-attr (23.2.0-2) ...
+Setting up python3-attr (23.2.0-2) ...
+Setting up python3-jaraco.classes (3.2.1-4) ...
+Setting up python3-jaraco.classes (3.2.1-4) ...
+Setting up python3-dbus-fast (2.44.1) ...
+Setting up python3-dbus-fast (2.44.1) ...
+Setting up linux-headers-6.8.0-100 (6.8.0-100.100) ...
+Setting up linux-headers-6.8.0-100 (6.8.0-100.100) ...
+Setting up python3-proton-vpn-local-agent (1.6.0) ...
+Setting up python3-proton-vpn-local-agent (1.6.0) ...
+Setting up python3-openssl (23.2.0-1) ...
+Setting up python3-openssl (23.2.0-1) ...
+Setting up python3-bcrypt (3.2.2-1build1) ...
+Setting up python3-bcrypt (3.2.2-1build1) ...
+Setting up linux-libc-dev:amd64 (6.8.0-100.100) ...
+Setting up linux-libc-dev:amd64 (6.8.0-100.100) ...
+Setting up python3-zipp (1.0.0-6ubuntu0.1) ...
+Setting up python3-zipp (1.0.0-6ubuntu0.1) ...
+Setting up python3-multidict (6.0.4-1.1build1) ...
+Setting up python3-multidict (6.0.4-1.1build1) ...
+Setting up python-babel-localedata (2.10.3-3build1) ...
+Setting up python-babel-localedata (2.10.3-3build1) ...
+Setting up python3-frozenlist (1.4.0-1build2) ...
+Setting up python3-frozenlist (1.4.0-1build2) ...
+Setting up python3-aiosignal (1.3.1-1) ...
+Setting up python3-aiosignal (1.3.1-1) ...
+Setting up python3-async-timeout (4.0.3-1) ...
+Setting up python3-async-timeout (4.0.3-1) ...
+Setting up python3-jinja2 (3.1.2-1ubuntu1.3) ...
+Setting up python3-jinja2 (3.1.2-1ubuntu1.3) ...
+Setting up python3-sentry-sdk (1.39.2-0.1) ...
+Setting up python3-sentry-sdk (1.39.2-0.1) ...
+Setting up libcares2:amd64 (1.27.0-1.0ubuntu1) ...
+Setting up libcares2:amd64 (1.27.0-1.0ubuntu1) ...
+Setting up wireguard-tools (1.0.20210914-1ubuntu4) ...
+Setting up wireguard-tools (1.0.20210914-1ubuntu4) ...
+wg-quick.target is a disabled or a static unit, not starting it.
+wg-quick.target is a disabled or a static unit, not starting it.
+Setting up python3-jeepney (0.8.0-3) ...
+Setting up python3-jeepney (0.8.0-3) ...
+Setting up python3-pycares (4.4.0-1build2) ...
+Setting up python3-pycares (4.4.0-1build2) ...
+Setting up libgtk-4-common (4.14.5+ds-0ubuntu0.7) ...
+Setting up libgtk-4-common (4.14.5+ds-0ubuntu0.7) ...
+Setting up libjs-jquery (3.6.1+dfsg+~3.5.14-1) ...
+Setting up libjs-jquery (3.6.1+dfsg+~3.5.14-1) ...
+Setting up python3-yarl (1.8.2-3build2) ...
+Setting up python3-yarl (1.8.2-3build2) ...
+Setting up libllvm18:amd64 (1:18.1.3-1ubuntu1) ...
+Setting up libllvm18:amd64 (1:18.1.3-1ubuntu1) ...
+Setting up linux-headers-6.8.0-100-generic (6.8.0-100.100) ...
+Setting up linux-headers-6.8.0-100-generic (6.8.0-100.100) ...
+/etc/kernel/header_postinst.d/dkms:
+ * dkms: running auto installation service for kernel 6.8.0-100-generic
+/etc/kernel/header_postinst.d/dkms:
+ * dkms: running auto installation service for kernel 6.8.0-100-generic
+ * dkms: autoinstall for kernel 6.8.0-100-generic
+   ...done.
+ * dkms: autoinstall for kernel 6.8.0-100-generic
+   ...done.
+Setting up python3-importlib-metadata (4.12.0-1) ...
+Setting up python3-importlib-metadata (4.12.0-1) ...
+Setting up python3-babel (2.10.3-3build1) ...
+Setting up python3-babel (2.10.3-3build1) ...
+update-alternatives: using /usr/bin/pybabel-python3 to provide /usr/bin/pybabel (pybabel) in auto mode
+update-alternatives: using /usr/bin/pybabel-python3 to provide /usr/bin/pybabel (pybabel) in auto mode
+Setting up python3-aiohttp (3.9.1-1build1) ...
+Setting up python3-aiohttp (3.9.1-1build1) ...
+Setting up linux-headers-generic (6.8.0-100.100) ...
+Setting up linux-headers-generic (6.8.0-100.100) ...
+Setting up python3-proton-core (0.7.3) ...
+Setting up python3-proton-core (0.7.3) ...
+Setting up python3-proton-vpn-api-core (4.14.3) ...
+Setting up python3-proton-vpn-api-core (4.14.3) ...
+Setting up python3-secretstorage (3.3.3-3) ...
+Setting up python3-secretstorage (3.3.3-3) ...
+Setting up python3-aiodns (3.1.1-1) ...
+Setting up python3-aiodns (3.1.1-1) ...
+Setting up python3-keyring (24.3.1-1) ...
+Setting up python3-keyring (24.3.1-1) ...
+Setting up libclang-cpp18 (1:18.1.3-1ubuntu1) ...
+Setting up libclang-cpp18 (1:18.1.3-1ubuntu1) ...
+Setting up libbpfcc:amd64 (0.29.1+ds-1ubuntu7) ...
+Setting up libbpfcc:amd64 (0.29.1+ds-1ubuntu7) ...
+Setting up python3-bpfcc (0.29.1+ds-1ubuntu7) ...
+Setting up python3-bpfcc (0.29.1+ds-1ubuntu7) ...
+Setting up proton-vpn-daemon (0.13.4) ...
+Setting up proton-vpn-daemon (0.13.4) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/me.proton.vpn.split_tunneling.service → /usr/lib/systemd/system/me.proton.vpn.split_tunneling.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/me.proton.vpn.split_tunneling.service → /usr/lib/systemd/system/me.proton.vpn.split_tunneling.service.
+Setting up python3-proton-keyring-linux (0.2.1) ...
+Setting up python3-proton-keyring-linux (0.2.1) ...
+Processing triggers for dbus (1.14.10-4ubuntu4.1) ...
+Processing triggers for dbus (1.14.10-4ubuntu4.1) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.5) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.5) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.4) ...
+Processing triggers for libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.4) ...
+Setting up libgtk-4-1:amd64 (4.14.5+ds-0ubuntu0.7) ...
+Setting up libgtk-4-1:amd64 (4.14.5+ds-0ubuntu0.7) ...
+Setting up gir1.2-gtk-4.0:amd64 (4.14.5+ds-0ubuntu0.7) ...
+Setting up gir1.2-gtk-4.0:amd64 (4.14.5+ds-0ubuntu0.7) ...
+Setting up proton-vpn-gtk-app (4.14.1) ...
+Setting up proton-vpn-gtk-app (4.14.1) ...
+Setting up proton-vpn-gnome-desktop (0.10.1) ...
+Setting up proton-vpn-gnome-desktop (0.10.1) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.5) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.5) ...
+[32m[OK][0m ProtonVPN GUI installed.
+[32m[OK][0m ProtonVPN GUI installed.
+[32m[OK][0m protonvpn.sh completed.
+[34m[INFO][0m Running ufw.sh...
+
+[35m========== Configuring UFW ==========[0m
+
+
+[35m========== Configuring UFW ==========[0m
+
+Default incoming policy changed to 'deny'
+(be sure to update your rules accordingly)
+Default incoming policy changed to 'deny'
+(be sure to update your rules accordingly)
+Default outgoing policy changed to 'allow'
+(be sure to update your rules accordingly)
+Default outgoing policy changed to 'allow'
+(be sure to update your rules accordingly)
+Firewall is active and enabled on system startup
+Firewall is active and enabled on system startup
+[32m[OK][0m UFW configured.
+[32m[OK][0m UFW configured.
+[32m[OK][0m ufw.sh completed.
+[34m[INFO][0m Running remove_packages.sh...
+
+[35m========== Removing Unwanted Packages ==========[0m
+
+
+[35m========== Removing Unwanted Packages ==========[0m
+
+[34m[INFO][0m Removing gnome-calculator...
+[34m[INFO][0m Removing gnome-calculator...
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+The following packages will be REMOVED:
+The following packages will be REMOVED:
+  gnome-calculator*
+  gnome-calculator*
+0 upgraded, 0 newly installed, 1 to remove and 273 not upgraded.
+After this operation, 7,643 kB disk space will be freed.
+0 upgraded, 0 newly installed, 1 to remove and 273 not upgraded.
+After this operation, 7,643 kB disk space will be freed.
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 490624 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 490624 files and directories currently installed.)
+Removing gnome-calculator (1:41.1+mint1+wilma) ...
+Removing gnome-calculator (1:41.1+mint1+wilma) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.5) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.5) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.4) ...
+Processing triggers for libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.4) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+[32m[OK][0m gnome-calculator removed.
+[32m[OK][0m gnome-calculator removed.
+[34m[INFO][0m Removing sticky...
+[34m[INFO][0m Removing sticky...
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+The following packages will be REMOVED:
+The following packages will be REMOVED:
+  sticky*
+  sticky*
+0 upgraded, 0 newly installed, 1 to remove and 273 not upgraded.
+After this operation, 801 kB disk space will be freed.
+0 upgraded, 0 newly installed, 1 to remove and 273 not upgraded.
+After this operation, 801 kB disk space will be freed.
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 489500 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 489500 files and directories currently installed.)
+Removing sticky (1.27) ...
+Removing sticky (1.27) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.4) ...
+Processing triggers for libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.4) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 40%(Reading database ... 45%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 489411 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 489411 files and directories currently installed.)
+Purging configuration files for sticky (1.27) ...
+Purging configuration files for sticky (1.27) ...
+[32m[OK][0m sticky removed.
+[32m[OK][0m sticky removed.
+[34m[INFO][0m Removing onboard...
+[34m[INFO][0m Removing onboard...
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+The following packages will be REMOVED:
+The following packages will be REMOVED:
+  onboard*
+  onboard*
+0 upgraded, 0 newly installed, 1 to remove and 273 not upgraded.
+After this operation, 1,960 kB disk space will be freed.
+0 upgraded, 0 newly installed, 1 to remove and 273 not upgraded.
+After this operation, 1,960 kB disk space will be freed.
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 489410 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 489410 files and directories currently installed.)
+Removing onboard (1.4.1+mint4+wilma) ...
+Removing onboard (1.4.1+mint4+wilma) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.4) ...
+Processing triggers for libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.4) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 489334 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 489334 files and directories currently installed.)
+Purging configuration files for onboard (1.4.1+mint4+wilma) ...
+Purging configuration files for onboard (1.4.1+mint4+wilma) ...
+[32m[OK][0m onboard removed.
+[32m[OK][0m onboard removed.
+[34m[INFO][0m Removing warpinator...
+[34m[INFO][0m Removing warpinator...
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+The following packages will be REMOVED:
+The following packages will be REMOVED:
+  warpinator*
+  warpinator*
+0 upgraded, 0 newly installed, 1 to remove and 273 not upgraded.
+After this operation, 13.8 MB disk space will be freed.
+0 upgraded, 0 newly installed, 1 to remove and 273 not upgraded.
+After this operation, 13.8 MB disk space will be freed.
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 489333 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 489333 files and directories currently installed.)
+Removing warpinator (1.8.10+zara) ...
+Removing warpinator (1.8.10+zara) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.4) ...
+Processing triggers for libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.4) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... (Reading database ... 65%65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 488990 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 488990 files and directories currently installed.)
+Purging configuration files for warpinator (1.8.10+zara) ...
+Purging configuration files for warpinator (1.8.10+zara) ...
+[32m[OK][0m warpinator removed.
+[32m[OK][0m warpinator removed.
+[34m[INFO][0m Removing simple-scan...
+[34m[INFO][0m Removing simple-scan...
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+The following packages will be REMOVED:
+The following packages will be REMOVED:
+  simple-scan*
+  simple-scan*
+0 upgraded, 0 newly installed, 1 to remove and 273 not upgraded.
+After this operation, 1,507 kB disk space will be freed.
+0 upgraded, 0 newly installed, 1 to remove and 273 not upgraded.
+After this operation, 1,507 kB disk space will be freed.
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 488989 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 488989 files and directories currently installed.)
+Removing simple-scan (46.0-0ubuntu2.1) ...
+Removing simple-scan (46.0-0ubuntu2.1) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.4) ...
+Processing triggers for libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.4) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+[32m[OK][0m simple-scan removed.
+[32m[OK][0m simple-scan removed.
+[34m[INFO][0m Removing drawing...
+[34m[INFO][0m Removing drawing...
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+The following packages will be REMOVED:
+The following packages will be REMOVED:
+  drawing*
+  drawing*
+0 upgraded, 0 newly installed, 1 to remove and 273 not upgraded.
+After this operation, 5,135 kB disk space will be freed.
+0 upgraded, 0 newly installed, 1 to remove and 273 not upgraded.
+After this operation, 5,135 kB disk space will be freed.
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 488296 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 488296 files and directories currently installed.)
+Removing drawing (1.0.2-1build1) ...
+Removing drawing (1.0.2-1build1) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.4) ...
+Processing triggers for libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.4) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+[32m[OK][0m drawing removed.
+[32m[OK][0m drawing removed.
+[34m[INFO][0m Removing pix...
+[34m[INFO][0m Removing pix...
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+The following packages will be REMOVED:
+The following packages will be REMOVED:
+  pix* pix-dbg*
+  pix* pix-dbg*
+0 upgraded, 0 newly installed, 2 to remove and 273 not upgraded.
+After this operation, 10.5 MB disk space will be freed.
+0 upgraded, 0 newly installed, 2 to remove and 273 not upgraded.
+After this operation, 10.5 MB disk space will be freed.
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 488079 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 488079 files and directories currently installed.)
+Removing pix-dbg (3.4.7+zara) ...
+Removing pix-dbg (3.4.7+zara) ...
+Removing pix (3.4.7+zara) ...
+Removing pix (3.4.7+zara) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+[32m[OK][0m pix removed.
+[32m[OK][0m pix removed.
+[34m[INFO][0m Removing thunderbird...
+[34m[INFO][0m Removing thunderbird...
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+The following packages will be REMOVED:
+The following packages will be REMOVED:
+  thunderbird*
+  thunderbird*
+0 upgraded, 0 newly installed, 1 to remove and 272 not upgraded.
+After this operation, 273 MB disk space will be freed.
+0 upgraded, 0 newly installed, 1 to remove and 272 not upgraded.
+After this operation, 273 MB disk space will be freed.
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 487953 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 487953 files and directories currently installed.)
+Removing thunderbird (1:128.14.0esr+linuxmint1+zara) ...
+Removing thunderbird (1:128.14.0esr+linuxmint1+zara) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+[32m[OK][0m thunderbird removed.
+[32m[OK][0m thunderbird removed.
+[34m[INFO][0m Removing firefox...
+[34m[INFO][0m Removing firefox...
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+The following packages will be REMOVED:
+The following packages will be REMOVED:
+  firefox* mintchat*
+  firefox* mintchat*
+0 upgraded, 0 newly installed, 2 to remove and 271 not upgraded.
+After this operation, 292 MB disk space will be freed.
+0 upgraded, 0 newly installed, 2 to remove and 271 not upgraded.
+After this operation, 292 MB disk space will be freed.
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 5%(Reading database ... 10%(Reading database ... 45%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 487867 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 487867 files and directories currently installed.)
+Removing mintchat (1.8) ...
+Removing mintchat (1.8) ...
+Removing firefox (142.0+linuxmint1+zara) ...
+Removing firefox (142.0+linuxmint1+zara) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.5) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.5) ...
+Processing triggers for mintsystem (8.6.3) ...
+Processing triggers for mintsystem (8.6.3) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 487726 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 487726 files and directories currently installed.)
+Purging configuration files for mintchat (1.8) ...
+Purging configuration files for mintchat (1.8) ...
+[32m[OK][0m firefox removed.
+[32m[OK][0m firefox removed.
+[34m[INFO][0m Removing transmission-gtk...
+[34m[INFO][0m Removing transmission-gtk...
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+The following packages will be REMOVED:
+The following packages will be REMOVED:
+  transmission-gtk*
+  transmission-gtk*
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 5,221 kB disk space will be freed.
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 5,221 kB disk space will be freed.
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 487714 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 487714 files and directories currently installed.)
+Removing transmission-gtk (4.0.5-1build5mint1+wilma) ...
+Removing transmission-gtk (4.0.5-1build5mint1+wilma) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...Processing triggers for mate-menus (1.26.1+mint1) ...
+
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+[32m[OK][0m transmission-gtk removed.
+[32m[OK][0m transmission-gtk removed.
+[33m[SKIP][0m mintchat already removed.
+[33m[SKIP][0m mintchat already removed.
+[34m[INFO][0m Removing webapp-manager...
+[34m[INFO][0m Removing webapp-manager...
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+The following packages will be REMOVED:
+The following packages will be REMOVED:
+  webapp-manager*
+  webapp-manager*
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 5,797 kB disk space will be freed.
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 5,797 kB disk space will be freed.
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 35%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 40%(Reading database ... 45%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 487618 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 487618 files and directories currently installed.)
+Removing webapp-manager (1.4.3) ...
+Removing webapp-manager (1.4.3) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.4) ...
+Processing triggers for libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.4) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 487531 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 487531 files and directories currently installed.)
+Purging configuration files for webapp-manager (1.4.3) ...
+Purging configuration files for webapp-manager (1.4.3) ...
+[32m[OK][0m webapp-manager removed.
+[32m[OK][0m webapp-manager removed.
+[34m[INFO][0m Removing gnome-calendar...
+[34m[INFO][0m Removing gnome-calendar...
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+The following packages will be REMOVED:
+The following packages will be REMOVED:
+  gnome-calendar*
+  gnome-calendar*
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 2,301 kB disk space will be freed.
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 2,301 kB disk space will be freed.
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... (Reading database ... 35%(Reading database ... 40%(Reading database ... 45%35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 487529 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 487529 files and directories currently installed.)
+Removing gnome-calendar (46.1-1mint2+zara) ...
+Removing gnome-calendar (46.1-1mint2+zara) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.4) ...
+Processing triggers for libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.4) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+[32m[OK][0m gnome-calendar removed.
+[32m[OK][0m gnome-calendar removed.
+[34m[INFO][0m Removing thingy...
+[34m[INFO][0m Removing thingy...
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+The following packages will be REMOVED:
+The following packages will be REMOVED:
+  thingy*
+  thingy*
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 462 kB disk space will be freed.
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 462 kB disk space will be freed.
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 487445 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 487445 files and directories currently installed.)
+Removing thingy (1.2.1) ...
+Removing thingy (1.2.1) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.4) ...
+Processing triggers for libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.4) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+[32m[OK][0m thingy removed.
+[32m[OK][0m thingy removed.
+[34m[INFO][0m Removing libreoffice-calc...
+[34m[INFO][0m Removing libreoffice-calc...
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+The following packages will be REMOVED:
+The following packages will be REMOVED:
+  libreoffice-calc*
+  libreoffice-calc*
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 29.9 MB disk space will be freed.
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 29.9 MB disk space will be freed.
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 487342 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 487342 files and directories currently installed.)
+Removing libreoffice-calc (4:24.2.7-0ubuntu0.24.04.4) ...
+Removing libreoffice-calc (4:24.2.7-0ubuntu0.24.04.4) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for libreoffice-common (4:24.2.7-0ubuntu0.24.04.4) ...
+Processing triggers for libreoffice-common (4:24.2.7-0ubuntu0.24.04.4) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 487314 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 487314 files and directories currently installed.)
+Purging configuration files for libreoffice-calc (4:24.2.7-0ubuntu0.24.04.4) ...
+Purging configuration files for libreoffice-calc (4:24.2.7-0ubuntu0.24.04.4) ...
+[32m[OK][0m libreoffice-calc removed.
+[32m[OK][0m libreoffice-calc removed.
+[34m[INFO][0m Removing libreoffice-writer...
+[34m[INFO][0m Removing libreoffice-writer...
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+The following packages will be REMOVED:
+The following packages will be REMOVED:
+  libreoffice-writer*
+  libreoffice-writer*
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 35.8 MB disk space will be freed.
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 35.8 MB disk space will be freed.
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 30%(Reading database ... 35%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 487314 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 487314 files and directories currently installed.)
+Removing libreoffice-writer (4:24.2.7-0ubuntu0.24.04.4) ...
+Removing libreoffice-writer (4:24.2.7-0ubuntu0.24.04.4) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for libreoffice-common (4:24.2.7-0ubuntu0.24.04.4) ...
+Processing triggers for libreoffice-common (4:24.2.7-0ubuntu0.24.04.4) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 487285 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 487285 files and directories currently installed.)
+Purging configuration files for libreoffice-writer (4:24.2.7-0ubuntu0.24.04.4) ...
+Purging configuration files for libreoffice-writer (4:24.2.7-0ubuntu0.24.04.4) ...
+[32m[OK][0m libreoffice-writer removed.
+[32m[OK][0m libreoffice-writer removed.
+[34m[INFO][0m Removing libreoffice-base-core...
+[34m[INFO][0m Removing libreoffice-base-core...
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+The following packages will be REMOVED:
+The following packages will be REMOVED:
+  libreoffice-base-core*
+  libreoffice-base-core*
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 3,570 kB disk space will be freed.
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 3,570 kB disk space will be freed.
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... (Reading database ... 25%(Reading database ... 30%30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 487285 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 487285 files and directories currently installed.)
+Removing libreoffice-base-core (4:24.2.7-0ubuntu0.24.04.4) ...
+Removing libreoffice-base-core (4:24.2.7-0ubuntu0.24.04.4) ...
+Processing triggers for libreoffice-common (4:24.2.7-0ubuntu0.24.04.4) ...
+Processing triggers for libreoffice-common (4:24.2.7-0ubuntu0.24.04.4) ...
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 487278 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 487278 files and directories currently installed.)
+Purging configuration files for libreoffice-base-core (4:24.2.7-0ubuntu0.24.04.4) ...
+Purging configuration files for libreoffice-base-core (4:24.2.7-0ubuntu0.24.04.4) ...
+[32m[OK][0m libreoffice-base-core removed.
+[32m[OK][0m libreoffice-base-core removed.
+[34m[INFO][0m Removing python3-uno...
+[34m[INFO][0m Removing python3-uno...
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+The following packages will be REMOVED:
+The following packages will be REMOVED:
+  python3-uno*
+  python3-uno*
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 550 kB disk space will be freed.
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 550 kB disk space will be freed.
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 487278 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 487278 files and directories currently installed.)
+Removing python3-uno (4:24.2.7-0ubuntu0.24.04.4) ...
+Removing python3-uno (4:24.2.7-0ubuntu0.24.04.4) ...
+Processing triggers for libreoffice-common (4:24.2.7-0ubuntu0.24.04.4) ...
+Processing triggers for libreoffice-common (4:24.2.7-0ubuntu0.24.04.4) ...
+[32m[OK][0m python3-uno removed.
+[32m[OK][0m python3-uno removed.
+[34m[INFO][0m Removing libreoffice-impress...
+[34m[INFO][0m Removing libreoffice-impress...
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+The following packages will be REMOVED:
+The following packages will be REMOVED:
+  libreoffice-impress*
+  libreoffice-impress*
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 3,363 kB disk space will be freed.
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 3,363 kB disk space will be freed.
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 5%(Reading database ... 10%(Reading database ... 40%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 487244 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 487244 files and directories currently installed.)
+Removing libreoffice-impress (4:24.2.7-0ubuntu0.24.04.4) ...
+Removing libreoffice-impress (4:24.2.7-0ubuntu0.24.04.4) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for libreoffice-common (4:24.2.7-0ubuntu0.24.04.4) ...
+Processing triggers for libreoffice-common (4:24.2.7-0ubuntu0.24.04.4) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 487206 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 487206 files and directories currently installed.)
+Purging configuration files for libreoffice-impress (4:24.2.7-0ubuntu0.24.04.4) ...
+Purging configuration files for libreoffice-impress (4:24.2.7-0ubuntu0.24.04.4) ...
+[32m[OK][0m libreoffice-impress removed.
+[32m[OK][0m libreoffice-impress removed.
+[34m[INFO][0m Removing libreoffice-core...
+[34m[INFO][0m Removing libreoffice-core...
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+The following packages will be REMOVED:
+The following packages will be REMOVED:
+  libreoffice-core* libreoffice-draw* libreoffice-gnome* libreoffice-gtk3*
+  libreoffice-core* libreoffice-draw* libreoffice-gnome* libreoffice-gtk3*
+0 upgraded, 0 newly installed, 4 to remove and 271 not upgraded.
+After this operation, 167 MB disk space will be freed.
+0 upgraded, 0 newly installed, 4 to remove and 271 not upgraded.
+After this operation, 167 MB disk space will be freed.
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 487206 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 487206 files and directories currently installed.)
+Removing libreoffice-gtk3 (4:24.2.7-0ubuntu0.24.04.4) ...
+Removing libreoffice-gtk3 (4:24.2.7-0ubuntu0.24.04.4) ...
+Removing libreoffice-gnome (4:24.2.7-0ubuntu0.24.04.4) ...
+Removing libreoffice-gnome (4:24.2.7-0ubuntu0.24.04.4) ...
+Removing libreoffice-draw (4:24.2.7-0ubuntu0.24.04.4) ...
+Removing libreoffice-draw (4:24.2.7-0ubuntu0.24.04.4) ...
+Removing libreoffice-core (4:24.2.7-0ubuntu0.24.04.4) ...
+Removing libreoffice-core (4:24.2.7-0ubuntu0.24.04.4) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for libreoffice-common (4:24.2.7-0ubuntu0.24.04.4) ...
+Processing triggers for libreoffice-common (4:24.2.7-0ubuntu0.24.04.4) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 45%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 487087 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 487087 files and directories currently installed.)
+Purging configuration files for libreoffice-gtk3 (4:24.2.7-0ubuntu0.24.04.4) ...
+Purging configuration files for libreoffice-gtk3 (4:24.2.7-0ubuntu0.24.04.4) ...
+Purging configuration files for libreoffice-draw (4:24.2.7-0ubuntu0.24.04.4) ...
+Purging configuration files for libreoffice-draw (4:24.2.7-0ubuntu0.24.04.4) ...
+Purging configuration files for libreoffice-gnome (4:24.2.7-0ubuntu0.24.04.4) ...
+Purging configuration files for libreoffice-gnome (4:24.2.7-0ubuntu0.24.04.4) ...
+Purging configuration files for libreoffice-core (4:24.2.7-0ubuntu0.24.04.4) ...
+Purging configuration files for libreoffice-core (4:24.2.7-0ubuntu0.24.04.4) ...
+[32m[OK][0m libreoffice-core removed.
+[32m[OK][0m libreoffice-core removed.
+[34m[INFO][0m Removing libreoffice-help-en-us...
+[34m[INFO][0m Removing libreoffice-help-en-us...
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+The following packages will be REMOVED:
+The following packages will be REMOVED:
+  libreoffice-help-en-us*
+  libreoffice-help-en-us*
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 28.2 MB disk space will be freed.
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 28.2 MB disk space will be freed.
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 487087 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 487087 files and directories currently installed.)
+Removing libreoffice-help-en-us (4:24.2.7-0ubuntu0.24.04.4) ...
+Removing libreoffice-help-en-us (4:24.2.7-0ubuntu0.24.04.4) ...
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 45%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 484334 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 484334 files and directories currently installed.)
+Purging configuration files for libreoffice-help-en-us (4:24.2.7-0ubuntu0.24.04.4) ...
+Purging configuration files for libreoffice-help-en-us (4:24.2.7-0ubuntu0.24.04.4) ...
+[32m[OK][0m libreoffice-help-en-us removed.
+[32m[OK][0m libreoffice-help-en-us removed.
+[34m[INFO][0m Removing libreoffice-help-common...
+[34m[INFO][0m Removing libreoffice-help-common...
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+The following packages will be REMOVED:
+The following packages will be REMOVED:
+  libreoffice-help-common*
+  libreoffice-help-common*
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 15.2 MB disk space will be freed.
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 15.2 MB disk space will be freed.
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 484334 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 484334 files and directories currently installed.)
+Removing libreoffice-help-common (4:24.2.7-0ubuntu0.24.04.4) ...
+Removing libreoffice-help-common (4:24.2.7-0ubuntu0.24.04.4) ...
+Processing triggers for libreoffice-common (4:24.2.7-0ubuntu0.24.04.4) ...
+Processing triggers for libreoffice-common (4:24.2.7-0ubuntu0.24.04.4) ...
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 478839 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 478839 files and directories currently installed.)
+Purging configuration files for libreoffice-help-common (4:24.2.7-0ubuntu0.24.04.4) ...
+Purging configuration files for libreoffice-help-common (4:24.2.7-0ubuntu0.24.04.4) ...
+[32m[OK][0m libreoffice-help-common removed.
+[32m[OK][0m libreoffice-help-common removed.
+[34m[INFO][0m Removing libreoffice-common...
+[34m[INFO][0m Removing libreoffice-common...
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+The following packages will be REMOVED:
+The following packages will be REMOVED:
+  libreoffice-common*
+  libreoffice-common*
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 48.4 MB disk space will be freed.
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 48.4 MB disk space will be freed.
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 478839 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 478839 files and directories currently installed.)
+Removing libreoffice-common (4:24.2.7-0ubuntu0.24.04.4) ...
+Removing libreoffice-common (4:24.2.7-0ubuntu0.24.04.4) ...
+rmdir: failed to remove '/var/lib/libreoffice/share/prereg/': No such file or directory
+rmdir: failed to remove '/var/lib/libreoffice/share/prereg/': No such file or directory
+rmdir: failed to remove '/var/lib/libreoffice/share/': No such file or directory
+rmdir: failed to remove '/var/lib/libreoffice/share/': No such file or directory
+rmdir: failed to remove '/var/lib/libreoffice/program/': No such file or directory
+rmdir: failed to remove '/var/lib/libreoffice/program/': No such file or directory
+rmdir: failed to remove '/var/lib/libreoffice': No such file or directory
+rmdir: failed to remove '/var/lib/libreoffice': No such file or directory
+rmdir: failed to remove '/var/lib/libreoffice': No such file or directory
+rmdir: failed to remove '/var/lib/libreoffice': No such file or directory
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for shared-mime-info (2.4-4) ...
+Processing triggers for shared-mime-info (2.4-4) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 477347 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 477347 files and directories currently installed.)
+Purging configuration files for libreoffice-common (4:24.2.7-0ubuntu0.24.04.4) ...
+Purging configuration files for libreoffice-common (4:24.2.7-0ubuntu0.24.04.4) ...
+rmdir: failed to remove '/var/lib/libreoffice/share/config': No such file or directory
+rmdir: failed to remove '/var/lib/libreoffice/share/config': No such file or directory
+rmdir: failed to remove '/var/lib/libreoffice/share': No such file or directory
+rmdir: failed to remove '/var/lib/libreoffice/share': No such file or directory
+[32m[OK][0m libreoffice-common removed.
+[32m[OK][0m libreoffice-common removed.
+[33m[SKIP][0m libreoffice-draw already removed.
+[33m[SKIP][0m libreoffice-draw already removed.
+[33m[SKIP][0m libreoffice-gnome already removed.
+[33m[SKIP][0m libreoffice-gnome already removed.
+[33m[SKIP][0m libreoffice-gtk3 already removed.
+[33m[SKIP][0m libreoffice-gtk3 already removed.
+[34m[INFO][0m Removing hypnotix...
+[34m[INFO][0m Removing hypnotix...
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+The following packages will be REMOVED:
+The following packages will be REMOVED:
+  hypnotix*
+  hypnotix*
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 1,082 kB disk space will be freed.
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 1,082 kB disk space will be freed.
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 40%(Reading database ... 45%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 477337 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 477337 files and directories currently installed.)
+Removing hypnotix (5.2) ...
+Removing hypnotix (5.2) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.4) ...
+Processing triggers for libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.4) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+[32m[OK][0m hypnotix removed.
+[32m[OK][0m hypnotix removed.
+[34m[INFO][0m Removing rhythmbox-plugin-tray-icon...
+[34m[INFO][0m Removing rhythmbox-plugin-tray-icon...
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+The following packages will be REMOVED:
+The following packages will be REMOVED:
+  rhythmbox-plugin-tray-icon*
+  rhythmbox-plugin-tray-icon*
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 23.6 kB disk space will be freed.
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 23.6 kB disk space will be freed.
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 477242 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 477242 files and directories currently installed.)
+Removing rhythmbox-plugin-tray-icon (2020.05.21) ...
+Removing rhythmbox-plugin-tray-icon (2020.05.21) ...
+[32m[OK][0m rhythmbox-plugin-tray-icon removed.
+[32m[OK][0m rhythmbox-plugin-tray-icon removed.
+[34m[INFO][0m Removing rhythmbox-plugins...
+[34m[INFO][0m Removing rhythmbox-plugins...
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+The following packages will be REMOVED:
+The following packages will be REMOVED:
+  rhythmbox-plugins*
+  rhythmbox-plugins*
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 1,630 kB disk space will be freed.
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 1,630 kB disk space will be freed.
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 477234 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 477234 files and directories currently installed.)
+Removing rhythmbox-plugins (3.4.7-2ubuntu6) ...
+Removing rhythmbox-plugins (3.4.7-2ubuntu6) ...
+[32m[OK][0m rhythmbox-plugins removed.
+[32m[OK][0m rhythmbox-plugins removed.
+[34m[INFO][0m Removing rhythmbox...
+[34m[INFO][0m Removing rhythmbox...
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+The following packages will be REMOVED:
+The following packages will be REMOVED:
+  rhythmbox*
+  rhythmbox*
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 306 kB disk space will be freed.
+0 upgraded, 0 newly installed, 1 to remove and 271 not upgraded.
+After this operation, 306 kB disk space will be freed.
+(Reading database ... (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 35%(Reading database ... 40%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 45%(Reading database ... 50%(Reading database ... 50%(Reading database ... 55%(Reading database ... 55%(Reading database ... 60%(Reading database ... 60%(Reading database ... 65%(Reading database ... 65%(Reading database ... 70%(Reading database ... 70%(Reading database ... 75%(Reading database ... 75%(Reading database ... 80%(Reading database ... 80%(Reading database ... 85%(Reading database ... 85%(Reading database ... 90%(Reading database ... 90%(Reading database ... 95%(Reading database ... 95%(Reading database ... 100%(Reading database ... 477087 files and directories currently installed.)
+(Reading database ... 100%(Reading database ... 477087 files and directories currently installed.)
+Removing rhythmbox (3.4.7-2ubuntu6) ...
+Removing rhythmbox (3.4.7-2ubuntu6) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for gnome-menus (3.36.0-1.1ubuntu3) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for mate-menus (1.26.1+mint1) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+[32m[OK][0m rhythmbox removed.
+[32m[OK][0m rhythmbox removed.
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+0 upgraded, 0 newly installed, 0 to remove and 271 not upgraded.
+0 upgraded, 0 newly installed, 0 to remove and 271 not upgraded.
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+[32m[OK][0m Removal complete.
+[32m[OK][0m Removal complete.
+[32m[OK][0m remove_packages.sh completed.
+[34m[INFO][0m Running cleanup.sh...
+
+[35m========== Final Cleanup ==========[0m
+
+
+[35m========== Final Cleanup ==========[0m
+
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+0 upgraded, 0 newly installed, 0 to remove and 271 not upgraded.
+0 upgraded, 0 newly installed, 0 to remove and 271 not upgraded.
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+[32m[OK][0m System cleaned.
+[32m[OK][0m System cleaned.
+[32m[OK][0m cleanup.sh completed.
+[32m[OK][0m All tasks completed successfully.
+
+[35m========== Linux Mint 22.2 Cinnamon Setup ==========[0m
+
+[34m[INFO][0m Running install_packages.sh...
+
+[35m========== Installing Base Packages ==========[0m
+
+
+[35m========== Installing Base Packages ==========[0m
+
+Hit:1 http://archive.ubuntu.com/ubuntu noble InRelease
+Hit:1 http://archive.ubuntu.com/ubuntu noble InRelease
+Hit:2 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:2 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+Hit:5 https://brave-browser-apt-release.s3.brave.com stable InRelease
+Hit:5 https://brave-browser-apt-release.s3.brave.com stable InRelease
+Ign:6 http://packages.linuxmint.com zara InRelease
+Ign:6 http://packages.linuxmint.com zara InRelease
+Hit:7 http://packages.linuxmint.com zara Release
+Hit:7 http://packages.linuxmint.com zara Release
+Hit:9 https://repo.protonvpn.com/debian stable InRelease
+Hit:9 https://repo.protonvpn.com/debian stable InRelease
+Reading package lists...Reading package lists...
+
+[33m[SKIP][0m neovim already installed.
+[33m[SKIP][0m neovim already installed.
+[33m[SKIP][0m ufw already installed.
+[33m[SKIP][0m ufw already installed.
+[32m[OK][0m install_packages.sh completed.
+[34m[INFO][0m Running brave.sh...
+
+[35m========== Installing Brave ==========[0m
+
+
+[35m========== Installing Brave ==========[0m
+
+[33m[SKIP][0m Brave already installed.
+[33m[SKIP][0m Brave already installed.
+[32m[OK][0m brave.sh completed.
+[34m[INFO][0m Running protonvpn.sh...
+
+[35m========== Installing ProtonVPN GUI ==========[0m
+
+
+[35m========== Installing ProtonVPN GUI ==========[0m
+
+[33m[SKIP][0m ProtonVPN already installed.
+[33m[SKIP][0m ProtonVPN already installed.
+[32m[OK][0m protonvpn.sh completed.
+[34m[INFO][0m Running ufw.sh...
+
+[35m========== Configuring UFW ==========[0m
+
+
+[35m========== Configuring UFW ==========[0m
+
+Default incoming policy changed to 'deny'
+(be sure to update your rules accordingly)
+Default incoming policy changed to 'deny'
+(be sure to update your rules accordingly)
+Default outgoing policy changed to 'allow'
+(be sure to update your rules accordingly)
+Default outgoing policy changed to 'allow'
+(be sure to update your rules accordingly)
+Firewall is active and enabled on system startup
+Firewall is active and enabled on system startup
+[32m[OK][0m UFW configured.
+[32m[OK][0m UFW configured.
+[32m[OK][0m ufw.sh completed.
+[34m[INFO][0m Running remove_packages.sh...
+
+[35m========== Removing Unwanted Packages ==========[0m
+
+
+[35m========== Removing Unwanted Packages ==========[0m
+
+[33m[SKIP][0m gnome-calculator already removed.
+[33m[SKIP][0m gnome-calculator already removed.
+[33m[SKIP][0m sticky already removed.
+[33m[SKIP][0m sticky already removed.
+[33m[SKIP][0m onboard already removed.
+[33m[SKIP][0m onboard already removed.
+[33m[SKIP][0m warpinator already removed.
+[33m[SKIP][0m warpinator already removed.
+[33m[SKIP][0m simple-scan already removed.
+[33m[SKIP][0m simple-scan already removed.
+[33m[SKIP][0m drawing already removed.
+[33m[SKIP][0m drawing already removed.
+[33m[SKIP][0m pix already removed.
+[33m[SKIP][0m pix already removed.
+[33m[SKIP][0m thunderbird already removed.
+[33m[SKIP][0m thunderbird already removed.
+[33m[SKIP][0m firefox already removed.
+[33m[SKIP][0m firefox already removed.
+[33m[SKIP][0m transmission-gtk already removed.
+[33m[SKIP][0m transmission-gtk already removed.
+[33m[SKIP][0m mintchat already removed.
+[33m[SKIP][0m mintchat already removed.
+[33m[SKIP][0m webapp-manager already removed.
+[33m[SKIP][0m webapp-manager already removed.
+[33m[SKIP][0m gnome-calendar already removed.
+[33m[SKIP][0m gnome-calendar already removed.
+[33m[SKIP][0m thingy already removed.
+[33m[SKIP][0m thingy already removed.
+[33m[SKIP][0m libreoffice-calc already removed.
+[33m[SKIP][0m libreoffice-calc already removed.
+[33m[SKIP][0m libreoffice-writer already removed.
+[33m[SKIP][0m libreoffice-writer already removed.
+[33m[SKIP][0m libreoffice-base-core already removed.
+[33m[SKIP][0m libreoffice-base-core already removed.
+[33m[SKIP][0m python3-uno already removed.
+[33m[SKIP][0m python3-uno already removed.
+[33m[SKIP][0m libreoffice-impress already removed.
+[33m[SKIP][0m libreoffice-impress already removed.
+[33m[SKIP][0m libreoffice-core already removed.
+[33m[SKIP][0m libreoffice-core already removed.
+[33m[SKIP][0m libreoffice-help-en-us already removed.
+[33m[SKIP][0m libreoffice-help-en-us already removed.
+[33m[SKIP][0m libreoffice-help-common already removed.
+[33m[SKIP][0m libreoffice-help-common already removed.
+[33m[SKIP][0m libreoffice-common already removed.
+[33m[SKIP][0m libreoffice-common already removed.
+[33m[SKIP][0m libreoffice-draw already removed.
+[33m[SKIP][0m libreoffice-draw already removed.
+[33m[SKIP][0m libreoffice-gnome already removed.
+[33m[SKIP][0m libreoffice-gnome already removed.
+[33m[SKIP][0m libreoffice-gtk3 already removed.
+[33m[SKIP][0m libreoffice-gtk3 already removed.
+[33m[SKIP][0m hypnotix already removed.
+[33m[SKIP][0m hypnotix already removed.
+[33m[SKIP][0m rhythmbox-plugin-tray-icon already removed.
+[33m[SKIP][0m rhythmbox-plugin-tray-icon already removed.
+[33m[SKIP][0m rhythmbox-plugins already removed.
+[33m[SKIP][0m rhythmbox-plugins already removed.
+[33m[SKIP][0m rhythmbox already removed.
+[33m[SKIP][0m rhythmbox already removed.
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+0 upgraded, 0 newly installed, 0 to remove and 271 not upgraded.
+0 upgraded, 0 newly installed, 0 to remove and 271 not upgraded.
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+[32m[OK][0m Removal complete.
+[32m[OK][0m Removal complete.
+[32m[OK][0m remove_packages.sh completed.
+[34m[INFO][0m Running cleanup.sh...
+
+[35m========== Final Cleanup ==========[0m
+
+
+[35m========== Final Cleanup ==========[0m
+
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+0 upgraded, 0 newly installed, 0 to remove and 271 not upgraded.
+0 upgraded, 0 newly installed, 0 to remove and 271 not upgraded.
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+[32m[OK][0m System cleaned.
+[32m[OK][0m System cleaned.
+[32m[OK][0m cleanup.sh completed.
+[32m[OK][0m All tasks completed successfully.
+
+[35m========== Linux Mint 22.2 Cinnamon Setup ==========[0m
+
+[34m[INFO][0m Running install_packages.sh...
+
+[35m========== Installing Base Packages ==========[0m
+
+
+[35m========== Installing Base Packages ==========[0m
+
+[36m[DRY-RUN][0m apt-get update -y
+[36m[DRY-RUN][0m apt-get update -y
+[33m[SKIP][0m neovim already installed.
+[33m[SKIP][0m neovim already installed.
+[33m[SKIP][0m ufw already installed.
+[33m[SKIP][0m ufw already installed.
+[32m[OK][0m install_packages.sh completed.
+[34m[INFO][0m Running brave.sh...
+
+[35m========== Installing Brave ==========[0m
+
+
+[35m========== Installing Brave ==========[0m
+
+[33m[SKIP][0m Brave already installed.
+[33m[SKIP][0m Brave already installed.
+[32m[OK][0m brave.sh completed.
+[34m[INFO][0m Running protonvpn.sh...
+
+[35m========== Installing ProtonVPN GUI ==========[0m
+
+
+[35m========== Installing ProtonVPN GUI ==========[0m
+
+[33m[SKIP][0m ProtonVPN already installed.
+[33m[SKIP][0m ProtonVPN already installed.
+[32m[OK][0m protonvpn.sh completed.
+[34m[INFO][0m Running ufw.sh...
+
+[35m========== Configuring UFW ==========[0m
+
+
+[35m========== Configuring UFW ==========[0m
+
+[36m[DRY-RUN][0m ufw default deny incoming
+[36m[DRY-RUN][0m ufw default deny incoming
+[36m[DRY-RUN][0m ufw default allow outgoing
+[36m[DRY-RUN][0m ufw --force enable
+[36m[DRY-RUN][0m ufw default allow outgoing
+[36m[DRY-RUN][0m ufw --force enable
+[32m[OK][0m UFW configured.
+[32m[OK][0m UFW configured.
+[32m[OK][0m ufw.sh completed.
+[34m[INFO][0m Running remove_packages.sh...
+
+[35m========== Removing Unwanted Packages ==========[0m
+
+
+[35m========== Removing Unwanted Packages ==========[0m
+
+[33m[SKIP][0m gnome-calculator already removed.
+[33m[SKIP][0m gnome-calculator already removed.
+[33m[SKIP][0m sticky already removed.
+[33m[SKIP][0m sticky already removed.
+[33m[SKIP][0m onboard already removed.
+[33m[SKIP][0m onboard already removed.
+[33m[SKIP][0m warpinator already removed.
+[33m[SKIP][0m warpinator already removed.
+[33m[SKIP][0m simple-scan already removed.
+[33m[SKIP][0m simple-scan already removed.
+[33m[SKIP][0m drawing already removed.
+[33m[SKIP][0m drawing already removed.
+[33m[SKIP][0m pix already removed.
+[33m[SKIP][0m pix already removed.
+[33m[SKIP][0m thunderbird already removed.
+[33m[SKIP][0m thunderbird already removed.
+[33m[SKIP][0m firefox already removed.
+[33m[SKIP][0m firefox already removed.
+[33m[SKIP][0m transmission-gtk already removed.
+[33m[SKIP][0m transmission-gtk already removed.
+[33m[SKIP][0m mintchat already removed.
+[33m[SKIP][0m mintchat already removed.
+[33m[SKIP][0m webapp-manager already removed.
+[33m[SKIP][0m webapp-manager already removed.
+[33m[SKIP][0m gnome-calendar already removed.
+[33m[SKIP][0m gnome-calendar already removed.
+[33m[SKIP][0m thingy already removed.
+[33m[SKIP][0m thingy already removed.
+[33m[SKIP][0m libreoffice-calc already removed.
+[33m[SKIP][0m libreoffice-calc already removed.
+[33m[SKIP][0m libreoffice-writer already removed.
+[33m[SKIP][0m libreoffice-writer already removed.
+[33m[SKIP][0m libreoffice-base-core already removed.
+[33m[SKIP][0m libreoffice-base-core already removed.
+[33m[SKIP][0m python3-uno already removed.
+[33m[SKIP][0m python3-uno already removed.
+[33m[SKIP][0m libreoffice-impress already removed.
+[33m[SKIP][0m libreoffice-impress already removed.
+[33m[SKIP][0m libreoffice-core already removed.
+[33m[SKIP][0m libreoffice-core already removed.
+[33m[SKIP][0m libreoffice-help-en-us already removed.
+[33m[SKIP][0m libreoffice-help-en-us already removed.
+[33m[SKIP][0m libreoffice-help-common already removed.
+[33m[SKIP][0m libreoffice-help-common already removed.
+[33m[SKIP][0m libreoffice-common already removed.
+[33m[SKIP][0m libreoffice-common already removed.
+[33m[SKIP][0m libreoffice-draw already removed.
+[33m[SKIP][0m libreoffice-draw already removed.
+[33m[SKIP][0m libreoffice-gnome already removed.
+[33m[SKIP][0m libreoffice-gnome already removed.
+[33m[SKIP][0m libreoffice-gtk3 already removed.
+[33m[SKIP][0m libreoffice-gtk3 already removed.
+[33m[SKIP][0m hypnotix already removed.
+[33m[SKIP][0m hypnotix already removed.
+[33m[SKIP][0m rhythmbox-plugin-tray-icon already removed.
+[33m[SKIP][0m rhythmbox-plugin-tray-icon already removed.
+[33m[SKIP][0m rhythmbox-plugins already removed.
+[33m[SKIP][0m rhythmbox-plugins already removed.
+[33m[SKIP][0m rhythmbox already removed.
+[33m[SKIP][0m rhythmbox already removed.
+[36m[DRY-RUN][0m apt-get autoremove -y
+[36m[DRY-RUN][0m apt-get autoremove -y
+[36m[DRY-RUN][0m apt-get autoclean -y
+[32m[OK][0m Removal complete.
+[36m[DRY-RUN][0m apt-get autoclean -y
+[32m[OK][0m Removal complete.
+[32m[OK][0m remove_packages.sh completed.
+[34m[INFO][0m Running cleanup.sh...
+
+[35m========== Final Cleanup ==========[0m
+
+[36m[DRY-RUN][0m apt-get autoremove -y
+[36m[DRY-RUN][0m apt-get autoclean -y
+[32m[OK][0m System cleaned.
+
+[35m========== Final Cleanup ==========[0m
+
+[36m[DRY-RUN][0m apt-get autoremove -y
+[36m[DRY-RUN][0m apt-get autoclean -y
+[32m[OK][0m System cleaned.
+[32m[OK][0m cleanup.sh completed.
+[32m[OK][0m All tasks completed.
+
+[35m========== Linux Mint 22.2 Cinnamon Setup ==========[0m
+
+[34m[INFO][0m Running install_packages.sh...
+
+[35m========== Installing Base Packages ==========[0m
+
+
+[35m========== Installing Base Packages ==========[0m
+
+Ign:1 http://packages.linuxmint.com zara InRelease
+Ign:1 http://packages.linuxmint.com zara InRelease
+Hit:2 http://packages.linuxmint.com zara Release
+Hit:2 http://packages.linuxmint.com zara Release
+Hit:3 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:3 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu noble InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu noble InRelease
+Hit:6 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:6 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:7 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+Hit:7 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+Hit:8 https://brave-browser-apt-release.s3.brave.com stable InRelease
+Hit:8 https://brave-browser-apt-release.s3.brave.com stable InRelease
+Hit:9 https://repo.protonvpn.com/debian stable InRelease
+Hit:9 https://repo.protonvpn.com/debian stable InRelease
+Reading package lists...Reading package lists...
+
+[33m[SKIP][0m neovim already installed.
+[33m[SKIP][0m neovim already installed.
+[33m[SKIP][0m ufw already installed.
+[33m[SKIP][0m ufw already installed.
+[32m[OK][0m install_packages.sh completed.
+[34m[INFO][0m Running brave.sh...
+
+[35m========== Installing Brave ==========[0m
+
+
+[35m========== Installing Brave ==========[0m
+
+[33m[SKIP][0m Brave already installed.
+[33m[SKIP][0m Brave already installed.
+[32m[OK][0m brave.sh completed.
+[34m[INFO][0m Running protonvpn.sh...
+
+[35m========== Installing ProtonVPN GUI ==========[0m
+
+
+[35m========== Installing ProtonVPN GUI ==========[0m
+
+[33m[SKIP][0m ProtonVPN already installed.
+[33m[SKIP][0m ProtonVPN already installed.
+[32m[OK][0m protonvpn.sh completed.
+[34m[INFO][0m Running ufw.sh...
+
+[35m========== Configuring UFW ==========[0m
+
+
+[35m========== Configuring UFW ==========[0m
+
+Default incoming policy changed to 'deny'
+(be sure to update your rules accordingly)
+Default incoming policy changed to 'deny'
+(be sure to update your rules accordingly)
+Default outgoing policy changed to 'allow'
+(be sure to update your rules accordingly)
+Default outgoing policy changed to 'allow'
+(be sure to update your rules accordingly)
+Firewall is active and enabled on system startup
+Firewall is active and enabled on system startup
+[32m[OK][0m UFW configured.
+[32m[OK][0m UFW configured.
+[32m[OK][0m ufw.sh completed.
+[34m[INFO][0m Running remove_packages.sh...
+
+[35m========== Removing Unwanted Packages ==========[0m
+
+
+[35m========== Removing Unwanted Packages ==========[0m
+
+[33m[SKIP][0m gnome-calculator already removed.
+[33m[SKIP][0m gnome-calculator already removed.
+[33m[SKIP][0m sticky already removed.
+[33m[SKIP][0m sticky already removed.
+[33m[SKIP][0m onboard already removed.
+[33m[SKIP][0m onboard already removed.
+[33m[SKIP][0m warpinator already removed.
+[33m[SKIP][0m warpinator already removed.
+[33m[SKIP][0m simple-scan already removed.
+[33m[SKIP][0m simple-scan already removed.
+[33m[SKIP][0m drawing already removed.
+[33m[SKIP][0m drawing already removed.
+[33m[SKIP][0m pix already removed.
+[33m[SKIP][0m pix already removed.
+[33m[SKIP][0m thunderbird already removed.
+[33m[SKIP][0m thunderbird already removed.
+[33m[SKIP][0m firefox already removed.
+[33m[SKIP][0m firefox already removed.
+[33m[SKIP][0m transmission-gtk already removed.
+[33m[SKIP][0m transmission-gtk already removed.
+[33m[SKIP][0m mintchat already removed.
+[33m[SKIP][0m mintchat already removed.
+[33m[SKIP][0m webapp-manager already removed.
+[33m[SKIP][0m webapp-manager already removed.
+[33m[SKIP][0m gnome-calendar already removed.
+[33m[SKIP][0m gnome-calendar already removed.
+[33m[SKIP][0m thingy already removed.
+[33m[SKIP][0m thingy already removed.
+[33m[SKIP][0m libreoffice-calc already removed.
+[33m[SKIP][0m libreoffice-calc already removed.
+[33m[SKIP][0m libreoffice-writer already removed.
+[33m[SKIP][0m libreoffice-writer already removed.
+[33m[SKIP][0m libreoffice-base-core already removed.
+[33m[SKIP][0m libreoffice-base-core already removed.
+[33m[SKIP][0m python3-uno already removed.
+[33m[SKIP][0m python3-uno already removed.
+[33m[SKIP][0m libreoffice-impress already removed.
+[33m[SKIP][0m libreoffice-impress already removed.
+[33m[SKIP][0m libreoffice-core already removed.
+[33m[SKIP][0m libreoffice-core already removed.
+[33m[SKIP][0m libreoffice-help-en-us already removed.
+[33m[SKIP][0m libreoffice-help-en-us already removed.
+[33m[SKIP][0m libreoffice-help-common already removed.
+[33m[SKIP][0m libreoffice-help-common already removed.
+[33m[SKIP][0m libreoffice-common already removed.
+[33m[SKIP][0m libreoffice-common already removed.
+[33m[SKIP][0m libreoffice-draw already removed.
+[33m[SKIP][0m libreoffice-draw already removed.
+[33m[SKIP][0m libreoffice-gnome already removed.
+[33m[SKIP][0m libreoffice-gnome already removed.
+[33m[SKIP][0m libreoffice-gtk3 already removed.
+[33m[SKIP][0m libreoffice-gtk3 already removed.
+[33m[SKIP][0m hypnotix already removed.
+[33m[SKIP][0m hypnotix already removed.
+[33m[SKIP][0m rhythmbox-plugin-tray-icon already removed.
+[33m[SKIP][0m rhythmbox-plugin-tray-icon already removed.
+[33m[SKIP][0m rhythmbox-plugins already removed.
+[33m[SKIP][0m rhythmbox-plugins already removed.
+[33m[SKIP][0m rhythmbox already removed.
+[33m[SKIP][0m rhythmbox already removed.
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+0 upgraded, 0 newly installed, 0 to remove and 271 not upgraded.
+0 upgraded, 0 newly installed, 0 to remove and 271 not upgraded.
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+[32m[OK][0m Removal complete.
+[32m[OK][0m Removal complete.
+[32m[OK][0m remove_packages.sh completed.
+[34m[INFO][0m Running cleanup.sh...
+
+[35m========== Final Cleanup ==========[0m
+
+
+[35m========== Final Cleanup ==========[0m
+
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+0 upgraded, 0 newly installed, 0 to remove and 271 not upgraded.
+0 upgraded, 0 newly installed, 0 to remove and 271 not upgraded.
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+[32m[OK][0m System cleaned.
+[32m[OK][0m System cleaned.
+[32m[OK][0m cleanup.sh completed.
+[32m[OK][0m All tasks completed.
+
+[35m========== Linux Mint 22.2 Cinnamon Setup ==========[0m
+
+
+[35m========== Installing Base Packages ==========[0m
+
+[34m[INFO][0m Running install_packages.sh...
+
+[35m========== Installing Base Packages ==========[0m
+
+[36m[DRY-RUN][0m apt-get update -y
+[36m[DRY-RUN][0m apt-get update -y
+[33m[SKIP][0m neovim already installed.
+[33m[SKIP][0m neovim already installed.
+[33m[SKIP][0m ufw already installed.
+[33m[SKIP][0m ufw already installed.
+[32m[OK][0m install_packages.sh completed.
+[34m[INFO][0m Running brave.sh...
+
+[35m========== Installing Brave ==========[0m
+
+
+[35m========== Installing Brave ==========[0m
+
+[33m[SKIP][0m Brave already installed.
+[33m[SKIP][0m Brave already installed.
+[32m[OK][0m brave.sh completed.
+[34m[INFO][0m Running protonvpn.sh...
+
+[35m========== Installing ProtonVPN GUI ==========[0m
+
+
+[35m========== Installing ProtonVPN GUI ==========[0m
+
+[33m[SKIP][0m ProtonVPN already installed.
+[33m[SKIP][0m ProtonVPN already installed.
+[32m[OK][0m protonvpn.sh completed.
+[34m[INFO][0m Running ufw.sh...
+
+[35m========== Configuring UFW ==========[0m
+
+
+[35m========== Configuring UFW ==========[0m
+
+[36m[DRY-RUN][0m ufw default deny incoming
+[36m[DRY-RUN][0m ufw default allow outgoing
+[36m[DRY-RUN][0m ufw --force enable
+[36m[DRY-RUN][0m ufw default deny incoming
+[32m[OK][0m UFW configured.
+[36m[DRY-RUN][0m ufw default allow outgoing
+[36m[DRY-RUN][0m ufw --force enable
+[32m[OK][0m UFW configured.
+[32m[OK][0m ufw.sh completed.
+[34m[INFO][0m Running remove_packages.sh...
+
+[35m========== Removing Unwanted Packages ==========[0m
+
+
+[35m========== Removing Unwanted Packages ==========[0m
+
+[33m[SKIP][0m gnome-calculator already removed.
+[33m[SKIP][0m gnome-calculator already removed.
+[33m[SKIP][0m sticky already removed.
+[33m[SKIP][0m sticky already removed.
+[33m[SKIP][0m onboard already removed.
+[33m[SKIP][0m onboard already removed.
+[33m[SKIP][0m warpinator already removed.
+[33m[SKIP][0m warpinator already removed.
+[33m[SKIP][0m simple-scan already removed.
+[33m[SKIP][0m simple-scan already removed.
+[33m[SKIP][0m drawing already removed.
+[33m[SKIP][0m drawing already removed.
+[33m[SKIP][0m pix already removed.
+[33m[SKIP][0m pix already removed.
+[33m[SKIP][0m thunderbird already removed.
+[33m[SKIP][0m thunderbird already removed.
+[33m[SKIP][0m firefox already removed.
+[33m[SKIP][0m firefox already removed.
+[33m[SKIP][0m transmission-gtk already removed.
+[33m[SKIP][0m transmission-gtk already removed.
+[33m[SKIP][0m mintchat already removed.
+[33m[SKIP][0m mintchat already removed.
+[33m[SKIP][0m webapp-manager already removed.
+[33m[SKIP][0m webapp-manager already removed.
+[33m[SKIP][0m gnome-calendar already removed.
+[33m[SKIP][0m gnome-calendar already removed.
+[33m[SKIP][0m thingy already removed.
+[33m[SKIP][0m thingy already removed.
+[33m[SKIP][0m libreoffice-calc already removed.
+[33m[SKIP][0m libreoffice-calc already removed.
+[33m[SKIP][0m libreoffice-writer already removed.
+[33m[SKIP][0m libreoffice-writer already removed.
+[33m[SKIP][0m libreoffice-base-core already removed.
+[33m[SKIP][0m libreoffice-base-core already removed.
+[33m[SKIP][0m python3-uno already removed.
+[33m[SKIP][0m python3-uno already removed.
+[33m[SKIP][0m libreoffice-impress already removed.
+[33m[SKIP][0m libreoffice-impress already removed.
+[33m[SKIP][0m libreoffice-core already removed.
+[33m[SKIP][0m libreoffice-core already removed.
+[33m[SKIP][0m libreoffice-help-en-us already removed.
+[33m[SKIP][0m libreoffice-help-en-us already removed.
+[33m[SKIP][0m libreoffice-help-common already removed.
+[33m[SKIP][0m libreoffice-help-common already removed.
+[33m[SKIP][0m libreoffice-common already removed.
+[33m[SKIP][0m libreoffice-common already removed.
+[33m[SKIP][0m libreoffice-draw already removed.
+[33m[SKIP][0m libreoffice-draw already removed.
+[33m[SKIP][0m libreoffice-gnome already removed.
+[33m[SKIP][0m libreoffice-gnome already removed.
+[33m[SKIP][0m libreoffice-gtk3 already removed.
+[33m[SKIP][0m libreoffice-gtk3 already removed.
+[33m[SKIP][0m hypnotix already removed.
+[33m[SKIP][0m hypnotix already removed.
+[33m[SKIP][0m rhythmbox-plugin-tray-icon already removed.
+[33m[SKIP][0m rhythmbox-plugin-tray-icon already removed.
+[33m[SKIP][0m rhythmbox-plugins already removed.
+[33m[SKIP][0m rhythmbox-plugins already removed.
+[33m[SKIP][0m rhythmbox already removed.
+[33m[SKIP][0m rhythmbox already removed.
+[36m[DRY-RUN][0m apt-get autoremove -y
+[36m[DRY-RUN][0m apt-get autoclean -y
+[36m[DRY-RUN][0m apt-get autoremove -y
+[36m[DRY-RUN][0m apt-get autoclean -y
+[32m[OK][0m Removal complete.
+[32m[OK][0m Removal complete.
+[32m[OK][0m remove_packages.sh completed.
+[34m[INFO][0m Running cleanup.sh...
+
+[35m========== Final Cleanup ==========[0m
+
+[36m[DRY-RUN][0m apt-get autoremove -y
+[36m[DRY-RUN][0m apt-get autoclean -y
+[32m[OK][0m System cleaned.
+
+[35m========== Final Cleanup ==========[0m
+
+[36m[DRY-RUN][0m apt-get autoremove -y
+[36m[DRY-RUN][0m apt-get autoclean -y
+[32m[OK][0m System cleaned.
+[32m[OK][0m cleanup.sh completed.
+[32m[OK][0m All tasks completed.
+[34m[INFO][0m Restart required!
+
+[35m========== Linux Mint 22.2 Cinnamon Setup ==========[0m
+
+[34m[INFO][0m Running install_packages.sh...
+
+[35m========== Installing Base Packages ==========[0m
+
+[36m[DRY-RUN][0m apt-get update -y
+
+[35m========== Installing Base Packages ==========[0m
+
+[36m[DRY-RUN][0m apt-get update -y
+[33m[SKIP][0m neovim already installed.
+[33m[SKIP][0m neovim already installed.
+[33m[SKIP][0m ufw already installed.
+[33m[SKIP][0m ufw already installed.
+[32m[OK][0m install_packages.sh completed.
+[34m[INFO][0m Running brave.sh...
+
+[35m========== Installing Brave ==========[0m
+
+
+[35m========== Installing Brave ==========[0m
+
+[33m[SKIP][0m Brave already installed.
+[33m[SKIP][0m Brave already installed.
+[32m[OK][0m brave.sh completed.
+[34m[INFO][0m Running protonvpn.sh...
+
+[35m========== Installing ProtonVPN GUI ==========[0m
+
+
+[35m========== Installing ProtonVPN GUI ==========[0m
+
+[33m[SKIP][0m ProtonVPN already installed.
+[33m[SKIP][0m ProtonVPN already installed.
+[32m[OK][0m protonvpn.sh completed.
+[34m[INFO][0m Running ufw.sh...
+
+[35m========== Configuring UFW ==========[0m
+
+
+[35m========== Configuring UFW ==========[0m
+
+[36m[DRY-RUN][0m ufw default deny incoming
+[36m[DRY-RUN][0m ufw default allow outgoing
+[36m[DRY-RUN][0m ufw --force enable
+[36m[DRY-RUN][0m ufw default deny incoming
+[36m[DRY-RUN][0m ufw default allow outgoing
+[36m[DRY-RUN][0m ufw --force enable
+[32m[OK][0m UFW configured.
+[32m[OK][0m UFW configured.
+[32m[OK][0m ufw.sh completed.
+[34m[INFO][0m Running remove_packages.sh...
+
+[35m========== Removing Unwanted Packages ==========[0m
+
+
+[35m========== Removing Unwanted Packages ==========[0m
+
+[33m[SKIP][0m gnome-calculator already removed.
+[33m[SKIP][0m gnome-calculator already removed.
+[33m[SKIP][0m sticky already removed.
+[33m[SKIP][0m sticky already removed.
+[33m[SKIP][0m onboard already removed.
+[33m[SKIP][0m onboard already removed.
+[33m[SKIP][0m warpinator already removed.
+[33m[SKIP][0m warpinator already removed.
+[33m[SKIP][0m simple-scan already removed.
+[33m[SKIP][0m simple-scan already removed.
+[33m[SKIP][0m drawing already removed.
+[33m[SKIP][0m drawing already removed.
+[33m[SKIP][0m pix already removed.
+[33m[SKIP][0m pix already removed.
+[33m[SKIP][0m thunderbird already removed.
+[33m[SKIP][0m thunderbird already removed.
+[33m[SKIP][0m firefox already removed.
+[33m[SKIP][0m firefox already removed.
+[33m[SKIP][0m transmission-gtk already removed.
+[33m[SKIP][0m transmission-gtk already removed.
+[33m[SKIP][0m mintchat already removed.
+[33m[SKIP][0m mintchat already removed.
+[33m[SKIP][0m webapp-manager already removed.
+[33m[SKIP][0m webapp-manager already removed.
+[33m[SKIP][0m gnome-calendar already removed.
+[33m[SKIP][0m gnome-calendar already removed.
+[33m[SKIP][0m thingy already removed.
+[33m[SKIP][0m thingy already removed.
+[33m[SKIP][0m libreoffice-calc already removed.
+[33m[SKIP][0m libreoffice-calc already removed.
+[33m[SKIP][0m libreoffice-writer already removed.
+[33m[SKIP][0m libreoffice-writer already removed.
+[33m[SKIP][0m libreoffice-base-core already removed.
+[33m[SKIP][0m libreoffice-base-core already removed.
+[33m[SKIP][0m python3-uno already removed.
+[33m[SKIP][0m python3-uno already removed.
+[33m[SKIP][0m libreoffice-impress already removed.
+[33m[SKIP][0m libreoffice-impress already removed.
+[33m[SKIP][0m libreoffice-core already removed.
+[33m[SKIP][0m libreoffice-core already removed.
+[33m[SKIP][0m libreoffice-help-en-us already removed.
+[33m[SKIP][0m libreoffice-help-en-us already removed.
+[33m[SKIP][0m libreoffice-help-common already removed.
+[33m[SKIP][0m libreoffice-help-common already removed.
+[33m[SKIP][0m libreoffice-common already removed.
+[33m[SKIP][0m libreoffice-common already removed.
+[33m[SKIP][0m libreoffice-draw already removed.
+[33m[SKIP][0m libreoffice-draw already removed.
+[33m[SKIP][0m libreoffice-gnome already removed.
+[33m[SKIP][0m libreoffice-gnome already removed.
+[33m[SKIP][0m libreoffice-gtk3 already removed.
+[33m[SKIP][0m libreoffice-gtk3 already removed.
+[33m[SKIP][0m hypnotix already removed.
+[33m[SKIP][0m hypnotix already removed.
+[33m[SKIP][0m rhythmbox-plugin-tray-icon already removed.
+[33m[SKIP][0m rhythmbox-plugin-tray-icon already removed.
+[33m[SKIP][0m rhythmbox-plugins already removed.
+[33m[SKIP][0m rhythmbox-plugins already removed.
+[33m[SKIP][0m rhythmbox already removed.
+[33m[SKIP][0m rhythmbox already removed.
+[36m[DRY-RUN][0m apt-get autoremove -y
+[36m[DRY-RUN][0m apt-get autoclean -y
+[32m[OK][0m Removal complete.
+[36m[DRY-RUN][0m apt-get autoremove -y
+[36m[DRY-RUN][0m apt-get autoclean -y
+[32m[OK][0m Removal complete.
+[32m[OK][0m remove_packages.sh completed.
+[34m[INFO][0m Running upgrade.sh...
+
+[35m========== Upgrading ==========[0m
+
+[36m[DRY-RUN][0m apt-get upgrade
+[32m[OK][0m System upgraded.
+
+[35m========== Upgrading ==========[0m
+
+[36m[DRY-RUN][0m apt-get upgrade
+[32m[OK][0m System upgraded.
+[32m[OK][0m upgrade.sh completed.
+[34m[INFO][0m Running cleanup.sh...
+
+[35m========== Final Cleanup ==========[0m
+
+[36m[DRY-RUN][0m apt-get autoremove -y
+[36m[DRY-RUN][0m apt-get autoclean -y
+[32m[OK][0m System cleaned.
+
+[35m========== Final Cleanup ==========[0m
+
+[36m[DRY-RUN][0m apt-get autoremove -y
+[36m[DRY-RUN][0m apt-get autoclean -y
+[32m[OK][0m System cleaned.
+[32m[OK][0m cleanup.sh completed.
+[32m[OK][0m All tasks completed.
+[34m[INFO][0m Restart required!
+
+[35m========== Linux Mint 22.2 Cinnamon Setup ==========[0m
+
+
+[35m========== Installing Base Packages ==========[0m
+
+[34m[INFO][0m Running install_packages.sh...
+
+[35m========== Installing Base Packages ==========[0m
+
+Hit:1 http://archive.ubuntu.com/ubuntu noble InRelease
+Hit:1 http://archive.ubuntu.com/ubuntu noble InRelease
+Hit:2 https://brave-browser-apt-release.s3.brave.com stable InRelease
+Hit:2 https://brave-browser-apt-release.s3.brave.com stable InRelease
+Ign:3 http://packages.linuxmint.com zara InRelease
+Ign:3 http://packages.linuxmint.com zara InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:5 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:5 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:6 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+Hit:6 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+Hit:7 http://packages.linuxmint.com zara Release
+Hit:7 http://packages.linuxmint.com zara Release
+Hit:8 https://repo.protonvpn.com/debian stable InRelease
+Hit:8 https://repo.protonvpn.com/debian stable InRelease
+Reading package lists...Reading package lists...
+
+[33m[SKIP][0m neovim already installed.
+[33m[SKIP][0m neovim already installed.
+[33m[SKIP][0m ufw already installed.
+[33m[SKIP][0m ufw already installed.
+[32m[OK][0m install_packages.sh completed.
+[34m[INFO][0m Running brave.sh...
+
+[35m========== Installing Brave ==========[0m
+
+
+[35m========== Installing Brave ==========[0m
+
+[33m[SKIP][0m Brave already installed.
+[33m[SKIP][0m Brave already installed.
+[32m[OK][0m brave.sh completed.
+[34m[INFO][0m Running protonvpn.sh...
+
+[35m========== Installing ProtonVPN GUI ==========[0m
+
+
+[35m========== Installing ProtonVPN GUI ==========[0m
+
+[33m[SKIP][0m ProtonVPN already installed.
+[33m[SKIP][0m ProtonVPN already installed.
+[32m[OK][0m protonvpn.sh completed.
+[34m[INFO][0m Running ufw.sh...
+
+[35m========== Configuring UFW ==========[0m
+
+
+[35m========== Configuring UFW ==========[0m
+
+Default incoming policy changed to 'deny'
+(be sure to update your rules accordingly)
+Default incoming policy changed to 'deny'
+(be sure to update your rules accordingly)
+Default outgoing policy changed to 'allow'
+(be sure to update your rules accordingly)
+Default outgoing policy changed to 'allow'
+(be sure to update your rules accordingly)
+Firewall is active and enabled on system startup
+Firewall is active and enabled on system startup
+[32m[OK][0m UFW configured.
+[32m[OK][0m UFW configured.
+[32m[OK][0m ufw.sh completed.
+[34m[INFO][0m Running remove_packages.sh...
+
+[35m========== Removing Unwanted Packages ==========[0m
+
+
+[35m========== Removing Unwanted Packages ==========[0m
+
+[33m[SKIP][0m gnome-calculator already removed.
+[33m[SKIP][0m gnome-calculator already removed.
+[33m[SKIP][0m sticky already removed.
+[33m[SKIP][0m sticky already removed.
+[33m[SKIP][0m onboard already removed.
+[33m[SKIP][0m onboard already removed.
+[33m[SKIP][0m warpinator already removed.
+[33m[SKIP][0m warpinator already removed.
+[33m[SKIP][0m simple-scan already removed.
+[33m[SKIP][0m simple-scan already removed.
+[33m[SKIP][0m drawing already removed.
+[33m[SKIP][0m drawing already removed.
+[33m[SKIP][0m pix already removed.
+[33m[SKIP][0m pix already removed.
+[33m[SKIP][0m thunderbird already removed.
+[33m[SKIP][0m thunderbird already removed.
+[33m[SKIP][0m firefox already removed.
+[33m[SKIP][0m firefox already removed.
+[33m[SKIP][0m transmission-gtk already removed.
+[33m[SKIP][0m transmission-gtk already removed.
+[33m[SKIP][0m mintchat already removed.
+[33m[SKIP][0m mintchat already removed.
+[33m[SKIP][0m webapp-manager already removed.
+[33m[SKIP][0m webapp-manager already removed.
+[33m[SKIP][0m gnome-calendar already removed.
+[33m[SKIP][0m gnome-calendar already removed.
+[33m[SKIP][0m thingy already removed.
+[33m[SKIP][0m thingy already removed.
+[33m[SKIP][0m libreoffice-calc already removed.
+[33m[SKIP][0m libreoffice-calc already removed.
+[33m[SKIP][0m libreoffice-writer already removed.
+[33m[SKIP][0m libreoffice-writer already removed.
+[33m[SKIP][0m libreoffice-base-core already removed.
+[33m[SKIP][0m libreoffice-base-core already removed.
+[33m[SKIP][0m python3-uno already removed.
+[33m[SKIP][0m python3-uno already removed.
+[33m[SKIP][0m libreoffice-impress already removed.
+[33m[SKIP][0m libreoffice-impress already removed.
+[33m[SKIP][0m libreoffice-core already removed.
+[33m[SKIP][0m libreoffice-core already removed.
+[33m[SKIP][0m libreoffice-help-en-us already removed.
+[33m[SKIP][0m libreoffice-help-en-us already removed.
+[33m[SKIP][0m libreoffice-help-common already removed.
+[33m[SKIP][0m libreoffice-help-common already removed.
+[33m[SKIP][0m libreoffice-common already removed.
+[33m[SKIP][0m libreoffice-common already removed.
+[33m[SKIP][0m libreoffice-draw already removed.
+[33m[SKIP][0m libreoffice-draw already removed.
+[33m[SKIP][0m libreoffice-gnome already removed.
+[33m[SKIP][0m libreoffice-gnome already removed.
+[33m[SKIP][0m libreoffice-gtk3 already removed.
+[33m[SKIP][0m libreoffice-gtk3 already removed.
+[33m[SKIP][0m hypnotix already removed.
+[33m[SKIP][0m hypnotix already removed.
+[33m[SKIP][0m rhythmbox-plugin-tray-icon already removed.
+[33m[SKIP][0m rhythmbox-plugin-tray-icon already removed.
+[33m[SKIP][0m rhythmbox-plugins already removed.
+[33m[SKIP][0m rhythmbox-plugins already removed.
+[33m[SKIP][0m rhythmbox already removed.
+[33m[SKIP][0m rhythmbox already removed.
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+0 upgraded, 0 newly installed, 0 to remove and 20 not upgraded.
+0 upgraded, 0 newly installed, 0 to remove and 20 not upgraded.
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+[32m[OK][0m Removal complete.
+[32m[OK][0m Removal complete.
+[32m[OK][0m remove_packages.sh completed.
+[34m[INFO][0m Running upgrade.sh...
+
+[35m========== Upgrading ==========[0m
+
+
+[35m========== Upgrading ==========[0m
+
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+Calculating upgrade...Calculating upgrade...
+
+The following upgrades have been deferred due to phasing:
+  initramfs-tools initramfs-tools-bin initramfs-tools-core
+The following packages have been kept back:
+  firefox-locale-en libegl-mesa0 libgbm1 libgl1-mesa-dri libglx-mesa0
+  libnss-systemd libpam-systemd libsystemd-shared libsystemd0 libudev1
+  mesa-libgallium systemd systemd-resolved systemd-sysv systemd-timesyncd
+The following upgrades have been deferred due to phasing:
+  initramfs-tools initramfs-tools-bin initramfs-tools-core
+The following packages have been kept back:
+  firefox-locale-en libegl-mesa0 libgbm1 libgl1-mesa-dri libglx-mesa0
+  libnss-systemd libpam-systemd libsystemd-shared libsystemd0 libudev1
+  mesa-libgallium systemd systemd-resolved systemd-sysv systemd-timesyncd
+  thunderbird-locale-en udev
+  thunderbird-locale-en udev
+0 upgraded, 0 newly installed, 0 to remove and 20 not upgraded.
+0 upgraded, 0 newly installed, 0 to remove and 20 not upgraded.
+[32m[OK][0m System upgraded.
+[32m[OK][0m System upgraded.
+[32m[OK][0m upgrade.sh completed.
+[34m[INFO][0m Running cleanup.sh...
+
+[35m========== Final Cleanup ==========[0m
+
+
+[35m========== Final Cleanup ==========[0m
+
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+0 upgraded, 0 newly installed, 0 to remove and 20 not upgraded.
+0 upgraded, 0 newly installed, 0 to remove and 20 not upgraded.
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+[32m[OK][0m System cleaned.
+[32m[OK][0m System cleaned.
+[32m[OK][0m cleanup.sh completed.
+[32m[OK][0m All tasks completed.
+[34m[INFO][0m Restart required!
